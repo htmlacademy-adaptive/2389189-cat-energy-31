@@ -1,0 +1,34 @@
+.section-advantages{
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.section-advantages__list-advantages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 374px;
+}
+
+.section-advantages__item-advantages{
+    background-color: #F2F2F2;
+    width: 570px;
+}
+
+@media (min-width: 1440px) {
+    .section-advantages__title{
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    padding: 77px 0 73px 214px;
+}
+    .section-advantages__text{
+       font-size: 16px;
+       line-height: 24px;
+       font-weight: 400;
+       font-family: "lato";
+       padding: 0 61px 23px 52px;
+    }
+}

@@ -1,23 +1,17 @@
 .section-advantages{
     margin: 0 auto;
 }
-
 .section-advantages__list-advantages{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     min-height: 266px;
 }
-
 @media (min-width: 320px){
-    .section-advantages{
-        margin: 0 auto;
-        width: 320px;
-    }
     .section-advantages__item-advantages{
         background-color: #F2F2F2;
         width: 280px;
-        min-height: 266px;
+        padding-bottom: 18px;
         margin-bottom: 20px;
     }
     .section-advantages__title{
@@ -26,30 +20,16 @@
         font-weight: 400;
         font-family: "Oswald";
         text-transform: uppercase;
-        padding: 30px 52px 29px 90px;
+        padding: 30px 0 29px 90px;
     }
     .section-advantages__text{
         font-size: 14px;
         line-height: 18px;
         font-weight: 400;
         font-family: "lato";
-        margin: 0 33px 15px 20px;
-        width: 227px;
-        color: #444444;
         border-bottom: 1px solid #D9D9D9;
         padding-bottom: 23px;
-    }
-    .loss{
-        background-image: url("../../images/cat_back.svg");
-        background-repeat: no-repeat;
-        background-size: 50px 53px;
-        background-position: top 20px left 21px;
-    }
-    .weight{
-        background-image: url("../../images/cat_back\(1\).svg");
-        background-repeat: no-repeat;
-        background-size: 67px 50px;
-        background-position: top 24px left 13px;
+        margin: 0 20px 15px 20px;
     }
     .section-advantages__link{
         font-size: 16px;
@@ -58,12 +38,25 @@
         font-weight: 400;
         color: #000000;
         text-transform: uppercase;
-        margin: 0 0 22px 20px;
+        padding: 15px 0 0 20px;
 
         &-svg{
-            margin-left: 15px;
+            margin-left: 10px;
             margin-bottom: 3px;
         }
+    }
+    .loss{
+        background-image: url("../../images/cat_back.svg");
+        background-repeat: no-repeat;
+        background-size: 50px 53px;
+        background-position: top 20px left 21px;
+    }
+
+    .weight{
+        background-image: url("../../images/cat_back\(1\).svg");
+        background-repeat: no-repeat;
+        background-size: 67px 50px;
+        background-position: top 24px left 13px;
     }
 }
 
@@ -71,8 +64,8 @@
     .section-advantages__item-advantages{
         background-color: #F2F2F2;
         width: 708px;
-        min-height: 372px;
-        margin-bottom: 30px;
+        padding-bottom: 53px;
+        margin-bottom: 20px;
     }
     .section-advantages__title{
         font-size: 36px;
@@ -81,26 +74,15 @@
         font-family: "Oswald";
         text-transform: uppercase;
         padding: 77px 0 24px 53px;
-        }
+    }
     .section-advantages__text{
         font-size: 16px;
         line-height: 24px;
         font-weight: 400;
         font-family: "lato";
-        margin: 0 61px 48px 52px;
-        width: 340px;
-        }
-    .loss{
-        background-image: url("../../images/cat_back.svg");
-        background-repeat: no-repeat;
-        background-size: 200px 211px;
-        background-position: top 81px right 36px;
-    }
-    .weight{
-        background-image: url("../../images/cat_back\(1\).svg");
-        background-repeat: no-repeat;
-        background-size: 268px 200px;
-        background-position: top 91px right 29px;
+        padding-bottom: 0;
+        margin: 0 316px 48px 52px;
+        border-bottom: none;
     }
     .section-advantages__link{
         font-size: 20px;
@@ -109,19 +91,32 @@
         font-weight: 400;
         color: #000000;
         text-transform: uppercase;
-        margin: 0 0 55px 52px;
+        padding: 0 0 0 52px;
 
         &-svg{
             margin-left: 10px;
             margin-bottom: 3px;
         }
     }
-}
+    .loss{
+        background-image: url("../../images/cat_back.svg");
+        background-repeat: no-repeat;
+        background-size: 200px 211px;
+        background-position: top 81px right 63px;
+    }
 
+    .weight{
+        background-image: url("../../images/cat_back\(1\).svg");
+        background-repeat: no-repeat;
+        background-size: 268px 200px;
+        background-position: top 91px right 29px;
+    }
+}
 @media (min-width: 1440px) {
     .section-advantages__item-advantages{
     background-color: #F2F2F2;
     width: 570px;
+    padding-bottom: 55px;
     }
     .section-advantages__title{
     font-size: 36px;
@@ -136,7 +131,9 @@
        line-height: 24px;
        font-weight: 400;
        font-family: "lato";
-       padding: 0 61px 23px 52px;
+       margin: 0 61px 23px 52px;
+       padding-bottom: 0;
+       border-bottom: none;
     }
     .section-advantages__link{
         font-size: 20px;
@@ -145,7 +142,7 @@
         font-weight: 400;
         color: #000000;
         text-transform: uppercase;
-        margin: 0 0 55px 52px;
+        padding: 0 0 55px 52px;
 
         &-svg{
             margin-left: 10px;

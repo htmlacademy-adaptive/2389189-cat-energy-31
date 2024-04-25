@@ -4,6 +4,12 @@
     height: 694px;
     padding-left: 80px;
 }
+@media (min-width: 320px){
+    .page__main-wrapper--page{
+        background-image: none;
+    }
+    
+}
 
 @media (min-width: 768px){
     .page__main-wrapper--page{

@@ -4,16 +4,37 @@
 *::after {
   box-sizing: border-box;
 }
-
-body {
-    margin: 0 auto;
-    width: 1440px;
+@media (min-width: 320px) and (max-width: 768px){
+    body {
+        margin: 0 auto;
+        width: 320px;
+    }
+    .page__main{
+        width: 279px;
+     }
+}
+@media (min-width: 768px) and (max-width: 1440px){
+    body {
+        margin: 0 auto;
+        width: 768px;
+    }
+    .page__main{
+        width: 704px;
+     }
+}
+@media (min-width: 1440px){
+    body {
+        margin: 0 auto;
+        width: 1440px;
+    }
+    .page__main{
+       width: 1220px;
+       margin: 0 auto;
+    }
 }
 
-.page__main{
-    width: 1220px;
-    margin: 0 auto;
-}
+
+
 
 img {
     max-width: 100%;

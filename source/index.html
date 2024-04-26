@@ -26,7 +26,7 @@
           <picture>
             <source width="118" height="21" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logotext.svg">
             <source width="101" height="18" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logotext.svg">
-            <img class="logotype__picture" src="images/logotext.svg" width="101" height="18" alt="логотип">
+            <img class="logotype__text" src="images/logotext.svg" width="101" height="18" alt="логотип">
           </picture>
         </a>
       </div>
@@ -42,7 +42,12 @@
             <a class="page-header__link" href="#">подбор программы</a>
           </li>
         </ul>
-        <button class="page-header__burger-button" type="button">
+        <button class="page-header__menu-button" type="button">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="3" x2="24" y2="3" stroke="black" stroke-width="2"/>
+            <line y1="11" x2="24" y2="11" stroke="black" stroke-width="2"/>
+            <line y1="19" x2="24" y2="19" stroke="black" stroke-width="2"/>
+            </svg>            
           <span class="visually-hidden">открытие меню</span>
         </button>
       </nav>
@@ -58,18 +63,18 @@
           </div>
           <div class="section-hero__promo">
           <picture>
-            <source class="section-hero-dasktop" media="(min-width:768px)" width="552" height="449" type="image/png"
+            <source class="section-hero-dasktop" media="(min-width:1440px)" width="552" height="449" type="image/png"
               srcset="
                   images/index-can@1x.png 1x,
                   images/index-can@2x.png 2x
                 ">
-            <source class="section-hero-tablet" media="(min-width:320px)" width="709" type="image/png" height="609"
+            <source class="section-hero-tablet" media="(min-width:768px)" width="709" type="image/png" height="609"
               srcset="
-                  images/index-can-tablet@1x.png 1x,
-                  images/index-can-tablet@2x.png 2x
+                  images/index-can@1x.png 1x,
+                  images/index-can@2x.png 2x
                 ">
-            <img class="section-hero-mobile" src="images/index-can-mobile@1x.png" alt="cat energy product" width="280"
-              height="270" srcset="images/index-can-mobile@2x.png 2x">
+            <img class="section-hero-mobile" src="images/index-can@1x.png" srcset="images/index-can@2x.png 2x" alt="cat energy product" width="280"
+              height="270">
           </picture>
         </div>
       </section>

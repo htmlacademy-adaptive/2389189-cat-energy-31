@@ -1,0 +1,156 @@
+.section-details__stageges{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    .section-details{
+        width: 280px;
+        margin-left: 20px;
+    }
+    .section-details__stage{
+        width: 280px;
+        min-height: 60px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .section-details__icon{       
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+        background-position: center;
+        background-color: #68B738;
+        width: 60px;
+        height: 60px;
+    }
+    .leaf{
+        background-image: url("../../images/icon_leaf.svg");
+    }
+    .powder{
+        background-image: url("../../images/icon-powder.svg");
+    }
+    .eat{
+        background-image: url("../../images/icon_eat.svg");
+    }
+    .time{
+        background-image: url("../../images/icon-time.svg");
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1440px){
+    .section-details__stageges{
+        margin-left: 30px;
+        width: 708px;
+    }
+    .section-details__stage{
+        width: 246px;
+        min-height: 280px;
+        margin-bottom: 37px;
+    }
+    .section-details__icon{
+        margin-top: 40px;        
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+        background-position: center;
+        background-color: #68B738;
+        width: 80px;
+        height: 80px;
+    }
+    .leaf{
+        background-image: url("../../images/icon_leaf.svg");
+    }
+    .powder{
+        background-image: url("../../images/icon-powder.svg");
+    }
+    .eat{
+        background-image: url("../../images/icon_eat.svg");
+    }
+    .time{
+        background-image: url("../../images/icon-time.svg");
+    }
+    
+    .one{
+        background-image: url("../../images/one.svg");
+        background-repeat: no-repeat;
+        background-size: 112px 240px ;
+        background-position: left 110px top 40px;
+    }
+    .two{
+        background-image: url("../../images/two.svg");
+        background-repeat: no-repeat;
+        background-size: 134px 240px;
+        background-position: left 110px top 40px;
+    }
+    .fhree{
+        background-image: url("../../images/three.svg");
+        background-repeat: no-repeat;
+        background-size: 134px 240px;
+        background-position: left 110px top 40px;
+    }
+    .four{
+        background-image: url("../../images/four.svg");
+        background-repeat: no-repeat;
+        background-size: 134px 240px;
+        background-position: left 110px top 40px;
+    }
+}
+
+@media (min-width: 1440px){
+    .section-details{
+        margin: 0 auto;
+        padding-top: 71px;
+        width: 1220px;
+    }
+    .section-details__stage{
+        width: 250px;
+        min-height: 280px;
+        margin-top: 31px;
+    }
+    .section-details__icon{
+        margin-top: 40px;        
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+        background-position: center;
+        background-color: #68B738;
+        width: 80px;
+        height: 80px;
+    }
+    .leaf{
+        background-image: url("../../images/icon_leaf.svg");
+    }
+    .powder{
+        background-image: url("../../images/icon-powder.svg");
+    }
+    .eat{
+        background-image: url("../../images/icon_eat.svg");
+    }
+    .time{
+        background-image: url("../../images/icon-time.svg");
+    }
+    
+    .one{
+        background-image: url("../../images/one.svg");
+        background-repeat: no-repeat;
+        background-size: 112px 240px ;
+        background-position: left 110px top 40px;
+    }
+    .two{
+        background-image: url("../../images/two.svg");
+        background-repeat: no-repeat;
+        background-size: 134px 240px;
+        background-position: left 110px top 40px;
+    }
+    .fhree{
+        background-image: url("../../images/three.svg");
+        background-repeat: no-repeat;
+        background-size: 134px 240px;
+        background-position: left 110px top 40px;
+    }
+    .four{
+        background-image: url("../../images/four.svg");
+        background-repeat: no-repeat;
+        background-size: 134px 240px;
+        background-position: left 110px top 40px;
+    }
+}

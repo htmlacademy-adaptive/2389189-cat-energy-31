@@ -1,18 +1,82 @@
-.page__header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 1220px;
-  margin: 0 auto;
-  padding-top: 55px;
+@media (min-width: 320px) and (max-width: 767px){
+  .page__header{
+    width: 320px;
+    padding: 13px 20px;
+  }
+  .logo-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logotype__text{
+    margin-left: 56px;
+  }
+  .page-header__link {
+    color: #000000;
+  }
+  .page__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .page-header__list{
+    display: none;
+  }
+  .page-header__menu-button{
+    border: none;
+    background-color: #ffffff;
+  }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 1440px){
+  .page__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 704px;
+    min-height: 50px;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
   .logo-link {
     display: flex;
-  justify-content: space-between;
-  align-items: center;
+    justify-content: space-between;
+    align-items: center;
     width: 174px;
+    height: 50px;
+  }  
+  .page-header__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: "oswald";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    width: 436px;
+    min-height: 50px;
+    
+  }  
+  .page-header__item{
+    padding-left: 33px;
+    
+   }
+  .page-header__item:nth-child(1){
+    padding-left: 0;
+  }
+  .page-header__link {
+    color: #000000;
+  }
+  .list-current{
+    border-bottom: 2px solid #68B738;
+    padding-bottom: 8px;
+  }
+
+
+  .page-header__menu-button{
+    display: none;
   }
 }
 
@@ -22,40 +86,44 @@
   justify-content: space-between;
   align-items: center;
   width: 202px;
-}
-}
-
-.page-header__list{
+ }
+  .page-header__link{
+    color: #ffffff;
+ }
+  .page__header{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1220px;
+  margin: 0 auto;
+  padding-top: 55px;
+ }
+  .page-header__list{
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   font-family: "oswald";
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
   text-transform: uppercase;
-}
+ }
 
-@media (min-width: 768px){
-  .page-header__link{
-    color: #000000;
-}
-}
-
-@media (min-width: 1440px){
-  .page-header__link{
-    color: #ffffff;
-}
-}
-
-.page-header__item{
+ .page-header__item{
   padding-left: 33px;
-}
+ }
 
-.page-header__item:nth-child(1){
+  .page-header__item:nth-child(1){
   padding-left: 0;
-}
+  }
 
-.list-current{
+  .list-current{
   border-bottom: 2px solid #ffffff;
   padding-bottom: 8px;
+  }
+  .page-header__menu-button{
+    display: none;
+  }
 }
+
+

@@ -1,10 +1,39 @@
 @media(min-width: 1440px){
+    .address-wraper{
+        position: relative;
+    }
     .address__map iframe{
         width: 1440px;
         height: 400px;
     }
     .address__info{
-        position: relative;
-        top: 20px;
+        position: absolute;
+        top: 95px;
+        left: 110px;
+        background-color: #ffffff;
+        width: 565px;
+        height: 199px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+        padding-left: 80px;
+        padding-right: 78px;
+    }
+    .address__text{
+        font-family: "oswald";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        width: 163px;
+    }
+    .address__text-adress{
+        font-family: "lato";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 157px;
+        font-style: normal;
+        padding-bottom: 19px;
     }
 }

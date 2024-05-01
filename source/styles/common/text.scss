@@ -33,6 +33,29 @@
         width: 280px;
         padding-bottom: 20px;
     }
+    .address__text{
+        font-family: "oswald";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+        width: 140px;
+    }
+    .address__text-adress{
+        font-family: "lato";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 140px;
+        font-style: normal;
+        padding-bottom: 5px;
+    }
+    .page__footer-text{
+        font-family: "lato";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
 }
 @media (min-width: 768px) and (max-width:1440px){
     .section-hero__text{
@@ -67,6 +90,29 @@
         line-height: 24px;
         width: 708px;
         padding-bottom: 55px;
+    }
+    .address__text{
+        font-family: "oswald";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        width: 163px;
+    }
+    .address__text-adress{
+        font-family: "lato";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 157px;
+        font-style: normal;
+        padding-bottom: 19px;
+    }
+    .page__footer-text{
+        font-family: "lato";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
     }
 }
 
@@ -104,5 +150,28 @@
         width: 432px;
         padding-top: 70px;
         padding-bottom: 69px;
+    }
+    .address__text{
+        font-family: "oswald";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        width: 163px;
+    }
+    .address__text-adress{
+        font-family: "lato";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 157px;
+        font-style: normal;
+        padding-bottom: 19px;
+    }
+    .page__footer-text{
+        font-family: "lato";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
     }
 }

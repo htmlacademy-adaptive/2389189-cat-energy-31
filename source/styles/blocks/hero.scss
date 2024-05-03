@@ -14,10 +14,10 @@
     .section-hero__link{
         font-size: 16px;
         line-height: 20px;
-        font-family: "Oswald";
+        font-family: "Oswald", sans-serif;
         text-transform: uppercase;
         color: #ffffff;
-        background-color: #68B738;
+        background-color: $basic-green;
         padding: 14px 63px;
         position: relative;
         top: 19em;
@@ -41,12 +41,12 @@
     .section-hero__link{
         font-size: 20px;
         line-height: 26px;
-        font-family: "Oswald";
+        font-family: "Oswald", sans-serif;
         font-weight: 400;
         padding: 14px 26px;
         color: #ffffff;
         text-transform: uppercase;
-        background-color: #68B738;
+        background-color: $basic-green;
         position: relative;
     }
     .section-hero__promo{
@@ -78,10 +78,10 @@
         font-size: 20px;
         line-height: 26px;
         font-weight: 400;
-        font-family: "Oswald";
+        font-family: "Oswald", sans-serif;
         text-transform: uppercase;
         color: #ffffff;
-        background-color: #68B738;
+        background-color: $basic-green;
         padding: 14px 26px;
     }
 }

@@ -30,7 +30,7 @@
 
 }
 @media(min-width: 1440px){
-    .address-wraper{
+    .address--wraper{
         position: relative;
     }
     .address__map iframe{
@@ -41,7 +41,7 @@
         position: absolute;
         top: 95px;
         left: 110px;
-        background-color: #ffffff;
+        background-color: $basic-white;
         width: 565px;
         height: 199px;
         display: flex;

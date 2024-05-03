@@ -1,7 +1,7 @@
 @media (min-width: 320px) and (max-width: 768px){
     .section-example{
         width: 320px;
-        background-color: #EAEAEA;
+        background-color: $special_grey;
         margin-top: 49px;
         min-height: 659px;
     }
@@ -16,7 +16,7 @@
         display: flex;
     }
     .section-example__info-text{
-        font-family: "oswald";
+        font-family: "oswald", sans-serif;
         font-size: 24px;
         font-weight: 400;
         line-height: 24px;
@@ -25,7 +25,7 @@
         padding-top: 18px;
     }
     .section-example__info-caption{
-        font-family: "lato";
+        font-family: "lato", sans-serif;
         font-size: 12px;
         font-weight: 400;
         line-height: 12px;
@@ -39,7 +39,7 @@
         padding-top: 20px;
     }
     .section-example__info-price{
-        font-family: "Oswald";
+        font-family: "Oswald", sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
@@ -63,7 +63,7 @@
 @media (min-width: 769px) and (max-width:1440px){
     .section-example{
         width: 769px;
-        background: linear-gradient(180deg, #ffffff 50%, #f2f2f2 0%);;
+        background: linear-gradient(180deg, $basic-white 50%, $basic-grey 0%);
         padding-top: 92px;  
     }
     .section-example__wrapper{
@@ -81,7 +81,7 @@
         display: flex;
     }
     .section-example__info-text{
-        font-family: "oswald";
+        font-family: "Oswald", sans-serif;
         font-size: 30px;
         font-weight: 400;
         line-height: 37px;
@@ -90,7 +90,7 @@
         padding-top: 15px;
     }
     .section-example__info-caption{
-        font-family: "lato";
+        font-family: "lato", sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 14px;
@@ -104,7 +104,7 @@
         margin-right: 45px;
     }
     .section-example__info-price{
-        font-family: "Oswald";
+        font-family: "Oswald", sans-serif;
         font-size: 20px;
         font-weight: 400;
         line-height: 20px;
@@ -116,7 +116,7 @@
 @media (min-width: 1440px){
     .section-example{
         width: 1440px;
-        background: linear-gradient(180deg, #ffffff 35%, #f2f2f2 0%);;
+        background: linear-gradient(180deg, $basic-white 35%, $basic-grey 0%);;
         padding-top: 69px;  
     }
     .section-example__wrapper{
@@ -130,7 +130,7 @@
         display: flex;
     }
     .section-example__info-text{
-        font-family: "oswald";
+        font-family: "oswald", sans-serif;
         font-size: 30px;
         font-weight: 400;
         line-height: 37px;
@@ -139,7 +139,7 @@
         padding-top: 15px;
     }
     .section-example__info-caption{
-        font-family: "lato";
+        font-family: "lato", sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 14px;
@@ -157,7 +157,7 @@
         padding-top: 55px;
     }
     .section-example__info-price{
-        font-family: "Oswald";
+        font-family: "Oswald", sans-serif;
         font-size: 20px;
         font-weight: 400;
         line-height: 20px;

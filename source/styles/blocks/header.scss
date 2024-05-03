@@ -25,7 +25,7 @@
   }
   .page-header__menu-button{
     border: none;
-    background-color: #ffffff;
+    background-color: $basic-white;
   }
 }
 
@@ -50,7 +50,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    font-family: "oswald";
+    font-family: "oswald", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -61,16 +61,15 @@
   }  
   .page-header__item{
     padding-left: 33px;
-    
+    &-:nth-child(1){
+      padding-left: 0;
+    }
    }
-  .page-header__item:nth-child(1){
-    padding-left: 0;
-  }
   .page-header__link {
-    color: #000000;
+    color: $basic-black;
   }
   .list-current{
-    border-bottom: 2px solid #68B738;
+    border-bottom: 2px solid $basic-green;
     padding-bottom: 8px;
   }
 
@@ -102,7 +101,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-family: "oswald";
+  font-family: "oswald", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -111,14 +110,12 @@
 
  .page-header__item{
   padding-left: 33px;
- }
-
-  .page-header__item:nth-child(1){
-  padding-left: 0;
+  &-:nth-child(1){
+    padding-left: 0;
   }
-
+ }
   .list-current{
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid $basic-white;
   padding-bottom: 8px;
   }
   .page-header__menu-button{

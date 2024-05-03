@@ -2,7 +2,7 @@
     .page__footer{
         width: 320px;
         min-height: 147px;
-        background-color: #F2F2F2;
+        background-color: $basic-grey;
     }
     .page-footer__logo{
         padding: 40px 96px 20px 96px;
@@ -15,8 +15,8 @@
         min-height: 22px;
         padding: 20px 74px;
         margin: 0 20px;
-        border-top: 2px solid #D9D9D9;
-        border-bottom: 2px solid #D9D9D9;
+        border-top: 2px solid $special-grey-border;
+        border-bottom: 2px solid $special-grey-border;
     }
     .social-list__link svg{
         width: 28px;
@@ -38,7 +38,7 @@
         width: 768px;
         min-height: 147px;
         padding: 55px 30px;
-        background-color: #F2F2F2;
+        background-color: $basic-grey;
         align-items: center;
     }
     .social-list{
@@ -65,7 +65,7 @@
         width: 1440px;
         min-height: 169px;
         padding: 66px 110px;
-        background-color: #F2F2F2;
+        background-color: $basic-grey;
         align-items: center;
     }
     .social-list{

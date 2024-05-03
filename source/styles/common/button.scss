@@ -6,7 +6,7 @@
         line-height: 20px;
         text-transform: uppercase;
         color: #ffffff;
-        background-color: #68B738;
+        background-color: $basic-green;
         padding: 10px 54px;
         border-style: none;
     } .additional-product__buy-button{
@@ -29,7 +29,7 @@
     line-height: 20px;
     text-transform: uppercase;
     color: #ffffff;
-    background-color: #68B738;
+    background-color: $basic-green;
     padding: 10px 54px;
     border-style: none;
 } .additional-product__buy-button{
@@ -39,7 +39,7 @@
     line-height: 20px;
     text-transform: uppercase;
     color: #ffffff;
-    background-color: #68B738;
+    background-color: $basic-green;
     padding: 10px 91px;
     border-style: none;
 }

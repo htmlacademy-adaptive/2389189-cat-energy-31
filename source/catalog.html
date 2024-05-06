@@ -29,13 +29,13 @@
         <nav class="page-header__nav">
           <ul class="page-header__list">
             <li class="page-header__item">
-              <a class="page-header__link list-current" href="./index.html">Главная</a>
+              <a class="page-header__link catalog" href="./index.html">Главная</a>
             </li>
             <li class="page-header__item">
-              <a class="page-header__link" href="./catalog.html">Каталог продукции</a>
+              <a class="page-header__link catalog list-current__catalog" href="./catalog.html">Каталог продукции</a>
             </li>
             <li class="page-header__item">
-              <a class="page-header__link" href="#">подбор программы</a>
+              <a class="page-header__link catalog" href="#">подбор программы</a>
             </li>
           </ul>
           <button class="page-header__menu-button" type="button">
@@ -51,17 +51,16 @@
     <main class="page__main page-main">
         <section class="section-products">
             <h1 class="section-products__title title title--primari">Каталог продукции</h1>
-            <ul class="product-card-list">
-                <li class="product-card-item">
+            <ul class="product-card--list">
+                <li class="product-card__item">
                     <picture>
                             <source media="(min-width:320px)" width="161" height="172" type="image/png"
                               srcset="./images/images-catalog/pro-chicken-500@1x.png 1x, ./images/images-catalog/pro-chicken-500@2x.png 2x">
-                            <img src="./images/images-catalog/pro-chicken-500@1x.png" alt="фото товара" width="68" height="86"
+                            <img class="product-card-image" src="./images/images-catalog/pro-chicken-500@1x.png" alt="фото товара" width="68" height="86"
                               srcset="./images/images-catalog/pro-chicken-500@2x.png 2x">
                     </picture>
                     <h2 class="product-card__title">Cat Energy PRO 500 г</h2>
                     <ul class="product-card__info">
-                       
                         <li class="product-card__text">
                            <p>Масса</p>
                            <p>500 г</p>
@@ -79,16 +78,15 @@
                         заказать
                     </button>
                 </li>
-                <li class="product-card-item">
+                <li class="product-card__item">
                     <picture>
                             <source media="(min-width:320px)" width="161" height="172" type="image/png"
                               srcset="./images/images-catalog/pro-chicken-1000@1x.png 1x, ./images/images-catalog/pro-chicken-1000@2x.png 2x">
-                            <img src="./images/images-catalog/pro-chicken-1000@1x.png" alt="фото товара" width="68" height="86"
+                            <img class="product-card-image" src="./images/images-catalog/pro-chicken-1000@1x.png" alt="фото товара" width="68" height="86"
                               srcset="./images/images-catalog/pro-chicken-1000@2x.png 2x">
                     </picture>
                     <h2 class="product-card__title">Cat Energy PRO 1000 г</h2>
                     <ul class="product-card__info">
-                       
                         <li class="product-card__text">
                             <p>Масса</p>
                             <p>1000 г</p>
@@ -106,11 +104,11 @@
                         заказать
                     </button>
                 </li>
-                <li class="product-card-item">
+                <li class="product-card__item">
                     <picture>
                         <source media="(min-width:320px)" width="161" height="172" type="image/png"
                           srcset="./images/images-catalog/pro-fish-500@1x.png 1x, ./images/images-catalog/pro-fish-500@2x.png 2x">
-                        <img src="./images/images-catalog/pro-fish-500@1x.png" alt="фото товара" width="68" height="86"
+                        <img class="product-card-image" src="./images/images-catalog/pro-fish-500@1x.png" alt="фото товара" width="68" height="86"
                           srcset="./images/images-catalog/pro-fish-500@2x.png 2x">
                     </picture>
                     <h2 class="product-card__title">Cat Energy PRO 500 г</h2>
@@ -132,11 +130,11 @@
                         заказать
                     </button>
                 </li>
-                <li class="product-card-item">
+                <li class="product-card__item">
                     <picture>
                         <source media="(min-width:320px)" width="161" height="172" type="image/png"
                           srcset="./images/images-catalog/pro-fish-1000@1x.png 1x, ./images/images-catalog/pro-fish-1000@2x.png 2x">
-                        <img src="./images/images-catalog/pro-fish-1000@1x.png" alt="фото товара" width="68" height="86"
+                        <img class="product-card-image" src="./images/images-catalog/pro-fish-1000@1x.png" alt="фото товара" width="68" height="86"
                           srcset="./images/images-catalog/pro-fish-1000@2x.png 2x">
                     </picture>
                     <h2 class="product-card__title">Cat Energy PRO 1000 г</h2>
@@ -158,11 +156,11 @@
                         заказать
                     </button>
                 </li>
-                <li class="product-card-item">
+                <li class="product-card__item">
                     <picture>
                         <source media="(min-width:320px)" width="161" height="172" type="image/png"
                           srcset="./images/images-catalog/slim-greek-500@1x.png 1x, ./images/images-catalog/slim-greek-500@2x.png 2x">
-                        <img src="./images/images-catalog/slim-greek-500@1x.png" alt="фото товара" width="68" height="86"
+                        <img class="product-card-image" src="./images/images-catalog/slim-greek-500@1x.png" alt="фото товара" width="68" height="86"
                           srcset="./images/images-catalog/slim-greek-500@2x.png 2x">
                     </picture>
                     <h2 class="product-card__title">Cat Energy SLIM 500 г</h2>
@@ -184,11 +182,11 @@
                         заказать
                     </button>
                 </li>
-                <li class="product-card-item">
+                <li class="product-card__item">
                     <picture>
                         <source media="(min-width:320px)" width="161" height="172" type="image/png"
                           srcset="./images/images-catalog/slim-greek-1000@1x.png 1x, ./images/images-catalog/slim-greek-1000@2x.png 2x">
-                        <img src="./images/images-catalog/slim-greek-1000@1x.png" alt="фото товара" width="68" height="86"
+                        <img class="product-card-image" src="./images/images-catalog/slim-greek-1000@1x.png" alt="фото товара" width="68" height="86"
                           srcset="./images/images-catalog/slim-greek-1000@2x.png 2x">
                     </picture>
                     <h2 class="product-card__title">Cat Energy SLIM 500 г</h2>
@@ -210,11 +208,11 @@
                         заказать
                     </button>
                 </li>
-                <li class="product-card-item">
+                <li class="product-card__item">
                     <picture>
                         <source media="(min-width:320px)" width="161" height="172" type="image/png"
                           srcset="./images/images-catalog/slim-rice-500@1x.png 1x, ./images/images-catalog/slim-rice-500@2x.png 2x">
-                        <img src="./images/images-catalog/slim-rice-500@1x.png" alt="фото товара" width="68" height="86"
+                        <img class="product-card-image" src="./images/images-catalog/slim-rice-500@1x.png" alt="фото товара" width="68" height="86"
                           srcset="./images/images-catalog/slim-rice-500@2x.png 2x">
                     </picture>
                     <h2 class="product-card__title">Cat Energy SLIM 500 г</h2>
@@ -236,12 +234,15 @@
                         заказать
                     </button>
                 </li>
-                <li class="more-product-card">
-                    <h2 class="more-product-card__text">Показать еще 100500 товаров</h2>
-                    <p class="more-product-card__subtext">На самом деле вкусов гораздо больше!</p>
+                <li class="product-card__item more-product-card">
+                  <div class="more-product-card--wrapper">
+                    <svg class="more-product-card__svg" width="61" height="61" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#D3D3D3" stroke-width="2" d="M31.5.5v60M60.5 31.5H.5"/></svg>
+                    <h2 class="more-product-card__title">Показать еще 100500 товаров</h2>
+                    <p class="more-product-card__text">На самом деле вкусов гораздо больше!</p>
                     <button class="more-product-card__more-button" type="button">
                         показать все
                     </button>
+                  </div>
                 </li>
             </ul>
         </section>

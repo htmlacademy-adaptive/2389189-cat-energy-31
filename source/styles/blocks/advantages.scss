@@ -19,12 +19,12 @@
         color: $basic-black;
         text-transform: uppercase;
         padding: 15px 0 0 20px;
-
-        &-svg{
+ }
+        .section-advantages__link-svg{
             margin-left: 10px;
             margin-bottom: 3px;
         }
-    }
+   
 }
 
 @media (min-width: 768px) and (max-width: 1440px){
@@ -47,12 +47,12 @@
         color: $basic-black;
         text-transform: uppercase;
         padding: 0 0 0 52px;
-
-        &-svg{
+}
+        .section-advantages__link-svg{
             margin-left: 10px;
             margin-bottom: 3px;
         }
-    }
+    
 }
 @media (min-width: 1440px) {
     .section-advantages__list-advantages{
@@ -75,10 +75,10 @@
         color: $basic-black;
         text-transform: uppercase;
         padding: 0 0 55px 52px;
-
-        &-svg{
+      }
+        .section-advantages__link-svg{
             margin-left: 10px;
             margin-bottom: 3px;
         }
-    }
+    
 }

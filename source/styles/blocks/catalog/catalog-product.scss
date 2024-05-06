@@ -1,0 +1,117 @@
+.product-card--list{
+   display: flex;
+   flex-wrap: wrap;
+}
+@media(min-width: 768px) and (max-width: 1440px){
+   .product-card--list{
+    gap: 60px;
+    margin-left: 20px;
+    width: 708px;
+    } 
+   .product-card-item{
+    width: 324px;
+    min-height: 511px;
+    background: linear-gradient(180deg, $basic-white 20%, $basic-grey 0%);
+   }
+}
+@media (min-width: 1440px){
+   .product-card--list{
+      gap: 80px;
+      width: 1220px;
+      margin: 0 auto;
+      
+      } 
+     .product-card__item{
+      width: 245px;
+      min-height: 511px;
+      background: linear-gradient(180deg, $basic-white 16%, $basic-grey 0%);
+     
+   }
+     .product-card-image{
+      width: 172px;
+      height: 210px;
+      margin-left: 38px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+     }
+   .product-card__title{
+      font-family: "oswald";
+      font-weight: 400;
+      font-size: 20;
+      line-height: 24px;
+      margin: 0 auto;
+      width: 140px;
+      text-align: center;
+      margin-bottom: 23px;
+   }
+   .product-card__text{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 169px;
+      font-family: "lato";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      border-bottom: 1px solid $special-grey-border;
+      margin-bottom: 6px;
+      padding-bottom: 4px;
+   }
+   .product-card__button{
+      margin-top: 32px;
+      margin-left: 38px;
+   }
+   .more-product-card{
+      background: none;
+      position: relative;
+   }
+   .more-product-card--wrapper{
+      width: 245px;
+      height: 431px;
+      border: 2px solid $basic-grey;
+      position: absolute;
+      bottom: 0;
+   }
+   .more-product-card__title{
+      font-family: "oswald";
+      font-weight: 400;
+      font-size: 20;
+      line-height: 24px;
+      margin: 0 auto;
+      width: 140px;
+      text-align: center;
+      margin-bottom: 26px;
+      text-transform: uppercase;
+   } 
+   .more-product-card__text{
+      width: 169px;
+      font-family: "lato";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      margin: 0 auto;
+      text-align: center;
+      padding-bottom: 80px;
+   }
+   .more-product-card__more-button{
+      border-style: none;
+      background: $basic-grey;
+      width: 169px;
+      padding: 10px 39px;
+      font-family: "oswald";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: $special_dark-grey;
+      margin-left: 38px;
+   }
+   .more-product-card__svg{
+      width: 60px;
+      height: 60px;
+      margin-top: 50px;
+      margin-left: 92px;
+      margin-bottom: 40px;
+   }
+   }
+

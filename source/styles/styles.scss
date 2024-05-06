@@ -14,6 +14,9 @@
 @import "./blocks/example.scss";
 @import "./blocks/address.scss";
 @import "./blocks/footer.scss";
-@import "./blocks/catalog-product.scss";
 @import "./blocks/advantages-image.scss";
 @import "./blocks/details-image.scss";
+
+ /*catalog*/
+@import "./blocks/catalog/catalog-product.scss";
+@import "./blocks/catalog/header-catalog.scss";

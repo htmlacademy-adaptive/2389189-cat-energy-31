@@ -1,7 +1,7 @@
 @media (min-width: 320px) and (max-width: 768px){
     .section-example{
         width: 320px;
-        background-color: #EAEAEA;
+        background-color: $special_grey;
         margin-top: 49px;
         min-height: 659px;
     }
@@ -12,19 +12,20 @@
         margin: 0 auto;
         padding-bottom: 40px;
     }
-    .section-example__text{
-        font-family: "lato";
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 18px;
-        width: 280px;
-        padding-bottom: 20px;
-    }
     .section-example__info-primary{
         display: flex;
     }
+    .section-example__info-text{
+        font-family: "oswald", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        padding-bottom: 7px;
+        padding-top: 18px;
+    }
     .section-example__info-caption{
-        font-family: "lato";
+        font-family: "lato", sans-serif;
         font-size: 12px;
         font-weight: 400;
         line-height: 12px;
@@ -38,7 +39,7 @@
         padding-top: 20px;
     }
     .section-example__info-price{
-        font-family: "Oswald";
+        font-family: "Oswald", sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
@@ -49,7 +50,7 @@
     .section-example__info-weight, .section-example__info-time{
         width: 124px;
         height: 70px;
-        background-image: url("../../images/weight.svg");
+        background-image: url("../../icons/stack.svg#weight");
         background-repeat: no-repeat;
         margin-right: 32px;
         background-size: 124px 70px;
@@ -62,7 +63,7 @@
 @media (min-width: 769px) and (max-width:1440px){
     .section-example{
         width: 769px;
-        background: linear-gradient(180deg, #ffffff 50%, #f2f2f2 0%);;
+        background: linear-gradient(180deg, $basic-white 50%, $basic-grey 0%);
         padding-top: 92px;  
     }
     .section-example__wrapper{
@@ -72,14 +73,6 @@
         margin: 0 auto;
         padding-bottom: 101px;
     }
-    .section-example__text{
-        font-family: "lato";
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        width: 708px;
-        padding-bottom: 55px;
-    }
     .section-example__info{
         display: flex;
         justify-content: space-between;
@@ -87,8 +80,17 @@
     .section-example__info-primary{
         display: flex;
     }
+    .section-example__info-text{
+        font-family: "Oswald", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 37px;
+        text-align: center;
+        padding-bottom: 11px;
+        padding-top: 15px;
+    }
     .section-example__info-caption{
-        font-family: "lato";
+        font-family: "lato", sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 14px;
@@ -97,12 +99,12 @@
     .section-example__info-weight, .section-example__info-time{
         width: 162px;
         height: 77px;
-        background-image: url("../../images/weight.svg");
+        background-image: url("../../icons/stack.svg#weight");
         background-repeat: no-repeat;
         margin-right: 45px;
     }
     .section-example__info-price{
-        font-family: "Oswald";
+        font-family: "Oswald", sans-serif;
         font-size: 20px;
         font-weight: 400;
         line-height: 20px;
@@ -114,7 +116,7 @@
 @media (min-width: 1440px){
     .section-example{
         width: 1440px;
-        background: linear-gradient(180deg, #ffffff 35%, #f2f2f2 0%);;
+        background: linear-gradient(180deg, $basic-white 35%, $basic-grey 0%);;
         padding-top: 69px;  
     }
     .section-example__wrapper{
@@ -128,7 +130,7 @@
         display: flex;
     }
     .section-example__info-text{
-        font-family: "oswald";
+        font-family: "oswald", sans-serif;
         font-size: 30px;
         font-weight: 400;
         line-height: 37px;
@@ -137,7 +139,7 @@
         padding-top: 15px;
     }
     .section-example__info-caption{
-        font-family: "lato";
+        font-family: "lato", sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 14px;
@@ -146,7 +148,7 @@
     .section-example__info-weight, .section-example__info-time{
         width: 162px;
         height: 77px;
-        background-image: url("../../images/weight.svg");
+        background-image: url("../../icons/stack.svg#weight");
         background-repeat: no-repeat;
         margin-right: 45px;
     }
@@ -155,7 +157,7 @@
         padding-top: 55px;
     }
     .section-example__info-price{
-        font-family: "Oswald";
+        font-family: "Oswald", sans-serif;
         font-size: 20px;
         font-weight: 400;
         line-height: 20px;

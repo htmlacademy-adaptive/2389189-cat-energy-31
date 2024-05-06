@@ -1,0 +1,47 @@
+@media (min-width: 320px) and (max-width: 768px){
+    .loss{
+        background-image: url("../../icons/stack.svg#cat_back-1");
+        background-repeat: no-repeat;
+        background-size: 50px 53px;
+        background-position: top 20px left 21px;
+    }
+
+    .weight{
+        background-image: url("../../icons/stack.svg#cat_back-2");
+        background-repeat: no-repeat;
+        background-size: 67px 50px;
+        background-position: top 24px left 13px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1440px){
+    .loss{
+        background-image: url("../../icons/stack.svg#cat_back-1");
+        background-repeat: no-repeat;
+        background-size: 200px 211px;
+        background-position: top 81px right 63px;
+    }
+
+    .weight{
+        background-image: url("../../icons/stack.svg#cat_back-2");
+        background-repeat: no-repeat;
+        background-size: 268px 200px;
+        background-position: top 91px right 29px;
+    }
+}
+
+@media (min-width: 1440px){
+    .loss{
+        background-image: url("../../icons/stack.svg#cat_back-1");
+        background-repeat: no-repeat;
+        background-size: 120px 106px;
+        background-position: top 41px left 52px;
+    }
+
+    .weight{
+        background-image: url("../../icons/stack.svg#cat_back-2");
+        background-repeat: no-repeat;
+        background-size: 134px 100px;
+        background-position: top 47px left 33px;
+    }
+}

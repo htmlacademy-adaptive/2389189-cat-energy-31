@@ -1,14 +1,5 @@
 @media (min-width: 320px) and (max-width: 768px){
-    .section-hero__text{
-        font-size: 14px;
-        line-height: 14px;
-        font-weight: 400;
-        font-family: "Oswald", sans-serif;
-        color: #ffffff;
-        text-transform: uppercase;
-        text-align: center;
-        padding-top: 25px;
-    }
+
     .section-advantages__text{
         font-size: 14px;
         line-height: 18px;
@@ -58,14 +49,7 @@
     }
 }
 @media (min-width: 768px) and (max-width:1440px){
-    .section-hero__text{
-        font-size: 20px;
-        line-height: 20px;
-        font-family: "Oswald", sans-serif;
-        font-weight: 400;
-        padding-bottom: 50px;
-        text-transform: uppercase;
-    }
+
     .section-advantages__text{
         font-size: 16px;
         line-height: 24px;
@@ -117,14 +101,6 @@
 }
 
 @media (min-width: 1440px){
-    .section-hero__text{
-        font-size: 20px;
-        line-height: 20px;
-        font-weight: 400;
-        font-family: "Oswald", sans-serif;
-        text-transform: uppercase;
-        padding-bottom: 54px;
-    }
     .section-advantages__text{
         font-size: 16px;
         line-height: 24px;

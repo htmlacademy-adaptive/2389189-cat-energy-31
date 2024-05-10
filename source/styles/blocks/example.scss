@@ -1,167 +1,175 @@
-@media (min-width: 320px) and (max-width: 768px){
-    .section-example{
-        width: 320px;
-        background-color: $special_grey;
-        margin-top: 49px;
-        min-height: 659px;
-    }
-    .section-example__wrapper{
-        display: flex;
-        flex-wrap: wrap;
-        width: 280px;
-        margin: 0 auto;
-        padding-bottom: 40px;
-    }
-    .section-example__info-primary{
-        display: flex;
-    }
-    .section-example__info-text{
-        font-family: "oswald", sans-serif;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 24px;
-        text-align: center;
-        padding-bottom: 7px;
-        padding-top: 18px;
-    }
-    .section-example__info-caption{
-        font-family: "lato", sans-serif;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 12px;
-        text-align: center;
-        width: 59px;
-        margin: auto;
-    }
-    .section-example__info-secondary{
-        display: flex;
-        justify-content: center;
-        padding-top: 20px;
-    }
-    .section-example__info-price{
-        font-family: "Oswald", sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 20px;
-        text-transform: uppercase;
-        padding-right: 5px;
-        text-align: center;
-    }
-    .section-example__info-weight, .section-example__info-time{
-        width: 124px;
-        height: 70px;
-        background-image: url("../../icons/stack.svg#weight");
-        background-repeat: no-repeat;
-        margin-right: 32px;
-        background-size: 124px 70px;
-    }
-    .section-example__cat{
-        margin-top: 150px;
-    }
-}
-
-@media (min-width: 769px) and (max-width:1440px){
-    .section-example{
+.section-example{
+    width: 320px;
+    background-color: #EAEAEA;
+    margin-top: 49px;
+    min-height: 659px;
+    @media (min-width: 769px){
         width: 769px;
         background: linear-gradient(180deg, $basic-white 50%, $basic-grey 0%);
-        padding-top: 92px;  
+        margin-top: 45px;
     }
-    .section-example__wrapper{
-        display: flex;
-        flex-wrap: wrap;
-        width: 708px;
-        margin: 0 auto;
-        padding-bottom: 101px;
-    }
-    .section-example__info{
-        display: flex;
-        justify-content: space-between;
-    }
-    .section-example__info-primary{
-        display: flex;
-    }
-    .section-example__info-text{
-        font-family: "Oswald", sans-serif;
-        font-size: 30px;
-        font-weight: 400;
-        line-height: 37px;
-        text-align: center;
-        padding-bottom: 11px;
-        padding-top: 15px;
-    }
-    .section-example__info-caption{
-        font-family: "lato", sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 14px;
-        text-align: center;
-    }
-    .section-example__info-weight, .section-example__info-time{
-        width: 162px;
-        height: 77px;
-        background-image: url("../../icons/stack.svg#weight");
-        background-repeat: no-repeat;
-        margin-right: 45px;
-    }
-    .section-example__info-price{
-        font-family: "Oswald", sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 20px;
-        text-transform: uppercase;
-        text-align: end;
+    @media (min-width: 1440px){
+        width: 1440px;
+        background: linear-gradient(180deg, $basic-white 20%, $basic-grey 0%);
+        margin-top: 69px;  
     }
 }
-
-@media (min-width: 1440px){
-    .section-example{
-        width: 1440px;
-        background: linear-gradient(180deg, $basic-white 35%, $basic-grey 0%);;
-        padding-top: 69px;  
+.section-example__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    @media (min-width: 769px){
+        display: flex;
+        flex-wrap: wrap;
+        width: 769px;
+        margin: 0 30px 0 30px;
+        padding-bottom: 101px;
     }
-    .section-example__wrapper{
+    @media (min-width: 1440px){
         display: flex;
         justify-content: space-between;
         width: 1220px;
         margin: 0 auto;
         padding-bottom: 75px;
     }
-    .section-example__info-primary{
-        display: flex;
+}
+.section-example__info-primary{
+    display: flex;
+
+}
+.section-example__title{
+    font-size: 36px;
+    line-height: 40px;
+    padding-bottom: 40px; 
+    padding-top: 25px;
+    @media (min-width: 769px){
+        font-size: 60px;
+        line-height: 60px;
+        padding-bottom: 60px;
+        padding-top: 0;        
     }
-    .section-example__info-text{
-        font-family: "oswald", sans-serif;
+    @media (min-width: 1440px){
+        font-size: 60px;
+        line-height: 60px;
+        padding-bottom: 76px; 
+        padding-top: 0; 
+    }
+
+}
+.section-example__info-text{
+    font-family: "oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 7px;
+    padding-top: 18px;
+    @media (min-width: 769px){
         font-size: 30px;
-        font-weight: 400;
         line-height: 37px;
-        text-align: center;
         padding-bottom: 11px;
         padding-top: 15px;
     }
-    .section-example__info-caption{
-        font-family: "lato", sans-serif;
+    @media (min-width: 1440px){
+        font-size: 30px;
+        line-height: 37px;
+        padding-bottom: 11px;
+        padding-top: 15px;
+    }
+}
+.section-example__info-caption{
+    font-family: "lato", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    width: 59px;
+    margin: auto;
+    @media (min-width: 769px){
         font-size: 14px;
-        font-weight: 400;
         line-height: 14px;
         text-align: center;
     }
-    .section-example__info-weight, .section-example__info-time{
-        width: 162px;
-        height: 77px;
-        background-image: url("../../icons/stack.svg#weight");
-        background-repeat: no-repeat;
-        margin-right: 45px;
+    @media (min-width: 1440px){
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
     }
-    .section-example__info-secondary{
+}
+.section-example__info-secondary{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    @media (min-width: 769px){
+
+    }
+    @media (min-width: 1440px){
         display: flex;
+        justify-content: space-between;
         padding-top: 55px;
     }
-    .section-example__info-price{
-        font-family: "Oswald", sans-serif;
+}
+.section-example__info-price{
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-right: 5px;
+    text-align: center;
+    @media (min-width: 769px){
         font-size: 20px;
-        font-weight: 400;
         line-height: 20px;
-        text-transform: uppercase;
+        text-align: end;
+    }
+    @media (min-width: 1440px){
+        font-size: 20px;
+        line-height: 20px;
         padding-right: 63px;
+    }
+}
+.section-example__info-weight, .section-example__info-time{
+    width: 124px;
+    height: 70px;
+    background-image: url("../../icons/stack.svg#weight");
+    background-repeat: no-repeat;
+    margin-right: 32px;
+    background-size: 124px 70px;
+    @media (min-width: 769px){
+        width: 162px;
+        height: 77px;
+        background-size: 162px;
+        margin-right: 45px;
+    }
+    @media (min-width: 1440px){
+        width: 162px;
+        height: 77px;
+        margin-right: 45px;
+    }
+}
+.section-example__cat{
+    margin-top: 20px;
+    @media (min-width: 769px){
+        margin-top: 99px;
+    }
+    @media (min-width: 1440px){
+        margin: 0;
+    }
+}
+@media (min-width: 769px){
+    .section-example__info{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1440px){
+    .section-example__info{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 436px;
     }
 }

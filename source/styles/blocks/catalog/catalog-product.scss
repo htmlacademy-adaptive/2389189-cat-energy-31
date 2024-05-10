@@ -5,6 +5,21 @@
       margin: 0 auto;
    }
 }
+.section-products__title{
+   font-size: 36px;
+   line-height: 36px;
+   padding: 27px 0 41px 20px;
+   @media (min-width: 768px){
+      font-size: 60px;
+      line-height: 60px;
+      padding: 65px 0 84px 30px;
+   }
+   @media (min-width: 1440px){
+      font-size: 60px;
+      line-height: 60px;
+      padding: 74px 0 84px 110px;
+   }
+}
 .product-card--list{   
    display: flex;
    flex-wrap: wrap;

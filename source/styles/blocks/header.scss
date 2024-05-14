@@ -33,6 +33,13 @@
   justify-content: space-between;
   align-items: center;
 
+  &:hover{
+    opacity: 80%;
+  }
+  &:active{
+    opacity: 60%;
+  }
+
   @media (min-width: 768px) {
     display: flex;
     justify-content: space-between;
@@ -63,11 +70,16 @@
 
 .page-header__link {
   color: $basic-black;
+  &:hover{
+    opacity: 60%;
+  }
+  &:active{
+    opacity: 30%;
+  }
 
   @media (min-width: 768px) {
     color: $basic-black;
   }
-
   @media (min-width: 1440px) {
     color: $basic-white;
   }

@@ -17,7 +17,7 @@
         }
     }
     .section-hero__wrapper{
-        background-image: url("../../images/rectangle.svg"), url("../../images/index-background-desktop@2.png");
+        background-image: url("../../images/Rectangle17.svg"), url("../../images/index-background-desktop@2.png");
         background-size: 320px;
         background-repeat: no-repeat;
         width: 320px;
@@ -84,12 +84,19 @@
         line-height: 20px;
         font-family: "Oswald", sans-serif;
         text-transform: uppercase;
-        color: #ffffff;
-        background-color: $basic-green;
+        color: $basic-white;
+        background: $basic-green;
         padding: 14px 63px;
         position: relative;
         top: 19em;
         left: 20px;
+        &:hover{
+            background: $basic-green-2;
+        }
+        &:active{
+            background: $basic-green-2;
+            color: rgba(255, 255, 255, 0.3);
+        }
         @media (min-width: 768px){
             font-size: 20px;
             line-height: 26px;

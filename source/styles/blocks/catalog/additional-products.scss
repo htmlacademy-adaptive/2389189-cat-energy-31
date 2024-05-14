@@ -165,10 +165,12 @@
     margin-left: 20px;
     width: 280px;
     height: 290px;
-    background-image: url("../../images/rectangle17.svg"), url("../../images/cat-cover.png");
+    background-image: url("../../../images/rectangle17.svg"), url("../../../images/cat-cover.png");
     background-repeat: no-repeat;
     @media (min-width:768px){
         justify-content: space-between;
+        background-image: url("../../../images/Rectangle17.svg"), url("../../../images/images-catalog/cat-cover-tablet.png");
+        background-position: 30px;
         width: 707px;
         height: 200px;
         background-size: 707px;
@@ -179,6 +181,7 @@
         height: 288px;
         background-size: 288px;
         margin: 0;
+        background-image: url("../../../images/rectangle17.svg"), url("../../../images/cat-cover.png");
     }
 }
 .promo-card-svg{

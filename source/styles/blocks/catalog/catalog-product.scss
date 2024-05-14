@@ -146,6 +146,13 @@
    .product-card__button{
       margin-bottom: 25px;
       margin-top: 17px;
+      &:hover{
+         background-color: $basic-green-2;
+      }
+      &:active{
+         background-color: $basic-green-2;
+         color: rgba(255, 255, 255, 0.3);
+      }
       @media(min-width: 768px){
          margin-bottom: 40px;
          margin-left: 37px;
@@ -226,13 +233,19 @@
       font-weight: 400;
       text-transform: uppercase;
       border-style: none;
-      background: $basic-grey;
+      background-color: $basic-grey;
       color: $special_dark-grey;
       padding: 10px 95px;
       width: 280px;
       font-size: 16px;
       line-height: 20px;
       margin-bottom: 20px;
+      &:hover{
+         background-color: $special_grey-3;
+      }
+      &:active{
+         background-color: $special_grey-3;
+      }
       @media(min-width: 768px){
          width: 250px;
          padding: 10px 80px;

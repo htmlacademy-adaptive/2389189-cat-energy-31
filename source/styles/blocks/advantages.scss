@@ -74,21 +74,32 @@
     font-weight: 400;
     color: $basic-black;
     text-transform: uppercase;
-    padding: 15px 0 0 20px;
+    margin: 15px 0 0 20px;
+    &:active{
+        opacity: 30%;
+    }
     @media (min-width: 768px){
         font-size: 20px;
         line-height: 30px;
-        padding: 0 0 0 52px;
+        margin: 0 0 0 52px;
     }
     @media (min-width: 1440px){
         font-size: 20px;
         line-height: 30px;
-        padding: 0 0 55px 52px;
+        margin: 0 0 55px 52px;
     }
 }
 .section-advantages__link-svg{
     margin-left: 10px;
     margin-bottom: 3px;
+    width: 24px;
+    height: 12px;
+    &:hover {
+        transform: scale(1.2);
+    }
+    &:active{
+        transform: scale(1.2);
+    }
     @media (min-width: 768px){
         margin-left: 10px;
         margin-bottom: 3px;

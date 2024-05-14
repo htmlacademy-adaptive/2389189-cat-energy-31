@@ -23,6 +23,12 @@
 }
 .page-footer__logo{
     padding: 40px 96px 20px 96px;
+    &:hover{
+        opacity: 80%;
+    }
+    &:active{
+        opacity: 60%;
+    }
     @media(min-width: 768px){
         padding: 0;
     }
@@ -57,6 +63,13 @@
 .social-list__link svg{
     width: 28px;
     height: 22px;
+    &:hover path{
+        fill: $basic-green;
+    }
+    &:active path{
+        fill: $basic-green;
+        opacity: 30%;
+    }
     @media(min-width: 768px){
         width: 28px;
         height: 22px;
@@ -73,6 +86,13 @@
     width: 280px;
     margin: 20px;
     padding-bottom: 40px;
+    &:hover path{
+        fill: $basic-green;
+    }
+    &:active path{
+        fill: $basic-green;
+        opacity: 30%;
+    }
     @media(min-width: 768px){
         display: flex;
         justify-content: space-between;
@@ -86,5 +106,24 @@
         justify-content: space-between;
         align-items: center;
         width: 168px;
+    }
+}
+.page__footer-text{
+    font-family: "lato", sans-serif;
+    color: $basic-black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    @media (min-width: 768px){
+        font-family: "lato", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    @media (min-width: 1440px){
+        font-family: "lato", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
     }
 }

@@ -2,34 +2,40 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-@media (min-width: 320px) and (max-width: 768px){
+
+@media (min-width: 320px) and (max-width: 768px) {
     body {
         margin: 0 auto;
         width: 320px;
     }
-    .page__main{
+
+    .page__main {
         width: 320px;
-     }
+    }
 }
-@media (min-width: 768px) and (max-width: 1440px){
+
+@media (min-width: 768px) and (max-width: 1440px) {
     body {
         margin: 0 auto;
         width: 768px;
     }
-    .page__main{
+
+    .page__main {
         width: 768px;
-     }
+    }
 }
-@media (min-width: 1440px){
+
+@media (min-width: 1440px) {
     body {
         margin: 0 auto;
         width: 1440px;
     }
-    .page__main{
-       width: 1440px;
-       margin: 0 auto;
+
+    .page__main {
+        width: 1440px;
+        margin: 0 auto;
     }
 }
 
@@ -56,22 +62,24 @@ main {
     overflow: hidden;
 }
 
-ul{
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-p, h1, h2, h3{
+p,
+h1,
+h2,
+h3 {
     padding: 0;
     margin: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.page-main{
+.page-main {
     flex-grow: 1;
 }
-  

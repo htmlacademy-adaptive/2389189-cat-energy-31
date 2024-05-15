@@ -1,6 +1,5 @@
 .page__header {
   display: block;
-
   width: 320px;
   border-bottom: 1px solid $special-grey-border;
 
@@ -25,17 +24,21 @@
     border: none;
   }
 }
+
 .page-header__logo {
   padding: 13px 0 0 20px;
   width: 250px;
 }
+
 .logo-link {
   display: block;
   height: 42px;
-  &:hover{
+
+  &:hover {
     opacity: 80%;
   }
-  &:active{
+
+  &:active {
     opacity: 60%;
   }
 
@@ -71,49 +74,56 @@
 .page-header__link {
   color: $basic-black;
 
-  &:hover{
+  &:hover {
     opacity: 60%;
   }
-  &:active{
+
+  &:active {
     opacity: 30%;
   }
 
   @media (min-width: 768px) {
     color: $basic-black;
   }
+
   @media (min-width: 1440px) {
     color: $basic-white;
   }
 }
 
-.header__nav--closed{
-  .page-header__list{
+.header__nav--closed {
+  .page-header__list {
     display: none;
-    @media(min-width: 768px){
+
+    @media(min-width: 768px) {
       display: flex;
     }
   }
-  .page-header__menu-button{
+
+  .page-header__menu-button {
     background-image: url("../../icons/menu-mobile.svg");
     width: 20px;
     height: 20px;
   }
 }
 
-.header__nav--opened{
-  .page-header__list{
+.header__nav--opened {
+  .page-header__list {
     display: block;
+
     @media (min-width: 768px) {
-      display: flex;}
+      display: flex;
+    }
   }
-  .page-header__menu-button{
+
+  .page-header__menu-button {
     background-image: url("../../icons/close_mobile.svg");
     background-size: 18px;
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
   }
-  
+
 }
 
 .page-header__list {
@@ -123,6 +133,7 @@
   line-height: 20px;
   text-transform: uppercase;
   text-align: center;
+
   @media (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
@@ -145,9 +156,11 @@
     width: 478px;
   }
 }
-.page-header__nav{
+
+.page-header__nav {
   position: relative;
 }
+
 .page-header__menu-button {
   border: none;
   position: absolute;
@@ -167,6 +180,7 @@
 .page-header__item {
   border-top: 1px solid #E6E6E6;
   padding: 22px 0 24px 0;
+
   @media (min-width: 768px) {
     padding-left: 33px;
     border-top: none;

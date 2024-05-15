@@ -1,51 +1,60 @@
-@media (min-width: 320px) and (max-width: 768px){
-    .leaf{
+@media (min-width: 320px) and (max-width: 768px) {
+    .leaf {
         background-image: url("../../icons/stack.svg#icon_leaf");
     }
-    .powder{
+
+    .powder {
         background-image: url("../../icons/stack.svg#icon-powder");
     }
-    .eat{
+
+    .eat {
         background-image: url("../../icons/stack.svg#icon_eat");
     }
-    .time{
+
+    .time {
         background-image: url("../../icons/stack.svg#icon-time");
     }
 }
 
-@media (min-width: 768px) and (max-width: 1440px){
-    .leaf{
+@media (min-width: 768px) and (max-width: 1440px) {
+    .leaf {
         background-image: url("../../icons/stack.svg#icon_leaf");
     }
-    .powder{
+
+    .powder {
         background-image: url("../../icons/stack.svg#icon-powder");
     }
-    .eat{
+
+    .eat {
         background-image: url("../../icons/stack.svg#icon_eat");
     }
-    .time{
+
+    .time {
         background-image: url("../../icons/stack.svg#icon-time");
     }
-    
-    .one{
+
+    .one {
         background-image: url("../../icons/stack.svg#one");
         background-repeat: no-repeat;
-        background-size: 112px 240px ;
+        background-size: 112px 240px;
         background-position: left 110px top 40px;
     }
-    .two{
+
+    .two {
         background-image: url("../../icons/stack.svg#two");
         background-repeat: no-repeat;
         background-size: 134px 240px;
         background-position: left 110px top 40px;
     }
-    .fhree{
+
+    .fhree {
         background-image: url("../../icons/stack.svg#three");
         background-repeat: no-repeat;
         background-size: 134px 240px;
         background-position: left 110px top 40px;
     }
-    .four{
+
+    .four {
         background-image: url("../../icons/stack.svg#four");
         background-repeat: no-repeat;
         background-size: 134px 240px;
@@ -53,39 +62,46 @@
     }
 }
 
-@media (min-width: 1440px){
-    .leaf{
+@media (min-width: 1440px) {
+    .leaf {
         background-image: url("../../icons/stack.svg#icon_leaf");
     }
-    .powder{
+
+    .powder {
         background-image: url("../../icons/stack.svg#icon-powder");
     }
-    .eat{
+
+    .eat {
         background-image: url("../../icons/stack.svg#icon_eat");
     }
-    .time{
+
+    .time {
         background-image: url("../../icons/stack.svg#icon-time");
     }
-    
-    .one{
-        background-image: url("../../icons/stack.svg#one");;
+
+    .one {
+        background-image: url("../../icons/stack.svg#one");
+        ;
         background-repeat: no-repeat;
-        background-size: 112px 240px ;
+        background-size: 112px 240px;
         background-position: left 110px top 40px;
     }
-    .two{
+
+    .two {
         background-image: url("../../icons/stack.svg#two");
         background-repeat: no-repeat;
         background-size: 134px 240px;
         background-position: left 110px top 40px;
     }
-    .fhree{
+
+    .fhree {
         background-image: url("../../icons/stack.svg#three");
         background-repeat: no-repeat;
         background-size: 134px 240px;
         background-position: left 110px top 40px;
     }
-    .four{
+
+    .four {
         background-image: url("../../icons/stack.svg#four");
         background-repeat: no-repeat;
         background-size: 134px 240px;

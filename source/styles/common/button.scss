@@ -1,5 +1,5 @@
-@media(min-width: 320px) and (max-width: 768px){
-    .product-card__button{
+@media(min-width: 320px) and (max-width: 768px) {
+    .product-card__button {
         font-family: "Oswald";
         font-size: 16px;
         font-weight: 400;
@@ -10,7 +10,8 @@
         padding: 10px 109px;
         border-style: none;
     }
-    .additional-product__buy-button{
+
+    .additional-product__buy-button {
         font-family: "Oswald";
         font-size: 16px;
         font-weight: 400;
@@ -22,8 +23,9 @@
         border-style: none;
     }
 }
-@media(min-width: 768px) and (max-width: 1440px){
-    .product-card__button{
+
+@media(min-width: 768px) and (max-width: 1440px) {
+    .product-card__button {
         font-family: "Oswald";
         font-size: 16px;
         font-weight: 400;
@@ -33,7 +35,9 @@
         background-color: $basic-green;
         padding: 10px 94px;
         border-style: none;
-    } .additional-product__buy-button{
+    }
+
+    .additional-product__buy-button {
         font-family: "Oswald";
         font-size: 16px;
         font-weight: 400;
@@ -45,26 +49,29 @@
         border-style: none;
     }
 }
-@media(min-width: 1440px){
-   .product-card__button{
-    font-family: "Oswald";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #ffffff;
-    background-color: $basic-green;
-    padding: 10px 54px;
-    border-style: none;
-} .additional-product__buy-button{
-    font-family: "Oswald";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #ffffff;
-    background-color: $basic-green;
-    padding: 10px 91px;
-    border-style: none;
-}
+
+@media(min-width: 1440px) {
+    .product-card__button {
+        font-family: "Oswald";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: $basic-green;
+        padding: 10px 54px;
+        border-style: none;
+    }
+
+    .additional-product__buy-button {
+        font-family: "Oswald";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: $basic-green;
+        padding: 10px 91px;
+        border-style: none;
+    }
 }

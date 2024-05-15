@@ -20,7 +20,7 @@
     align-items: center;
     width: 1220px;
     margin: 0 auto;
-    padding-top: 55px;
+    padding-top: 50px;
     border: none;
   }
 }
@@ -28,6 +28,9 @@
 .page-header__logo {
   padding: 13px 0 0 20px;
   width: 250px;
+  @media (min-width: 1440px){
+    padding: 0;
+  }
 }
 
 .logo-link {
@@ -68,6 +71,7 @@
 
   @media (min-width: 1440px) {
     margin-left: 14px;
+    padding-bottom: 0;
   }
 }
 
@@ -208,6 +212,6 @@
 
   @media (min-width: 1440px) {
     border-bottom: 2px solid $basic-white;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
   }
 }

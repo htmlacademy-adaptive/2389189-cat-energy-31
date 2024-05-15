@@ -9,7 +9,7 @@
 
     @media (min-width: 1440px) {
         margin: 0 auto;
-        padding-top: 71px;
+        padding-top: 31px;
         width: 1220px;
     }
 }
@@ -29,6 +29,7 @@
     @media (min-width: 1440px) {
         font-size: 60px;
         line-height: 60px;
+        padding-bottom: 0;
     }
 }
 
@@ -91,6 +92,7 @@
         width: 250px;
         min-height: 280px;
         margin-top: 31px;
+        margin-bottom: 0;
     }
 }
 
@@ -113,7 +115,7 @@
     }
 
     @media (min-width: 1440px) {
-        margin-top: 40px;
+        margin-top: 20px;
         background-repeat: no-repeat;
         background-size: 30px 30px;
         background-position: center;

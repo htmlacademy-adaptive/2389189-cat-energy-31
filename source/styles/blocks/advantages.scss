@@ -1,3 +1,8 @@
+.section-advantages{
+    @media (min-width: 1440px){
+        margin-top: 55px;
+    }
+}
 .section-advantages__list-advantages {
     display: flex;
     flex-wrap: wrap;
@@ -49,7 +54,7 @@
         font-size: 36px;
         line-height: 36px;
         text-transform: uppercase;
-        padding: 77px 0 73px 214px;
+        padding: 77px 0 75px 214px;
     }
 }
 
@@ -73,7 +78,7 @@
     @media (min-width: 1440px) {
         font-size: 16px;
         line-height: 24px;
-        margin: 0 61px 23px 52px;
+        margin: 0 61px 25px 52px;
         padding-bottom: 0;
         border-bottom: none;
     }
@@ -101,7 +106,7 @@
     @media (min-width: 1440px) {
         font-size: 20px;
         line-height: 30px;
-        margin: 0 0 55px 52px;
+        margin: 0 0 55px 53px;
     }
 }
 
@@ -125,7 +130,7 @@
     }
 
     @media (min-width: 1440px) {
-        margin-left: 10px;
+        margin-left: 20px;
         margin-bottom: 3px;
     }
 }

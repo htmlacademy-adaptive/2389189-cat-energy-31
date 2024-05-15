@@ -13,7 +13,8 @@
     @media (min-width: 1440px) {
         width: 1440px;
         background: linear-gradient(180deg, $basic-white 20%, $basic-grey 0%);
-        margin-top: 69px;
+        margin-top: 45px;
+        min-height: auto;
     }
 }
 
@@ -37,7 +38,7 @@
         justify-content: space-between;
         width: 1220px;
         margin: 0 auto;
-        padding-bottom: 75px;
+        padding-bottom: 76px;
     }
 }
 
@@ -134,6 +135,7 @@
         font-size: 14px;
         line-height: 14px;
         text-align: center;
+        width: 125px;
     }
 }
 
@@ -169,7 +171,7 @@
     @media (min-width: 1440px) {
         font-size: 20px;
         line-height: 20px;
-        padding-right: 63px;
+        padding-right: 65px;
     }
 }
 
@@ -192,7 +194,7 @@
     @media (min-width: 1440px) {
         width: 162px;
         height: 77px;
-        margin-right: 45px;
+        margin-right: 43px;
     }
 }
 

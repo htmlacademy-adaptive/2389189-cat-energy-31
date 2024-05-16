@@ -132,23 +132,19 @@
 }
 
 .page__footer-text {
-    font-family: "lato", sans-serif;
+    font-family: "lato",Arial, sans-serif;
     color: $basic-black;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
 
     @media (min-width: 768px) {
-        font-family: "lato", sans-serif;
         font-size: 16px;
-        font-weight: 400;
         line-height: 20px;
     }
 
     @media (min-width: 1440px) {
-        font-family: "lato", sans-serif;
         font-size: 16px;
-        font-weight: 400;
         line-height: 20px;
         padding-left: 5px;
     }

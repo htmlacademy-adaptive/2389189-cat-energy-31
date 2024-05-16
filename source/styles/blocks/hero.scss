@@ -40,11 +40,11 @@
     }
 
     .section-hero__title {
-        font-family: "Oswald";
+        font-family: "Oswald",Arial, sans-serif;
         font-weight: 400;
         font-size: 36px;
         line-height: 36px;
-        color: #ffffff;
+        color: $basic-white;
         text-align: center;
 
         @media (min-width: 768px) {
@@ -68,8 +68,8 @@
         font-size: 14px;
         line-height: 14px;
         font-weight: 400;
-        font-family: "Oswald", sans-serif;
-        color: #ffffff;
+        font-family: "Oswald", Arial, sans-serif;
+        color: $basic-white;
         text-transform: uppercase;
         text-align: center;
         padding-top: 25px;
@@ -94,7 +94,7 @@
     .section-hero__link {
         font-size: 16px;
         line-height: 20px;
-        font-family: "Oswald", sans-serif;
+        font-family: "Oswald",Arial, sans-serif;
         text-transform: uppercase;
         color: $basic-white;
         background: $basic-green;

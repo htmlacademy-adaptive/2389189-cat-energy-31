@@ -5,18 +5,22 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
-    body {
-        margin: 0 auto;
-        width: 320px;
-    }
-
-    .page__main {
-        width: 320px;
-    }
+.page {
+    height: 100%;
 }
 
-@media (min-width: 768px) and (max-width: 1440px) {
+body {
+    margin: 0 auto;
+    width: 320px;
+    min-height: 100%;
+}
+
+.page__main {
+    width: 320px;
+}
+
+
+@media (min-width: 768px) {
     body {
         margin: 0 auto;
         width: 768px;
@@ -38,9 +42,6 @@
         margin: 0 auto;
     }
 }
-
-
-
 
 img {
     max-width: 100%;

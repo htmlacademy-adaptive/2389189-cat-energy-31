@@ -6,15 +6,17 @@
 
     @media (min-width: 768px) {
         width: 769px;
-        background: linear-gradient(180deg, $basic-white 50%, $basic-grey 0%);
-        margin-top: 45px;
+        background: linear-gradient(180deg, $basic-white 55%, $basic-grey 0%);
+        margin-top: 52px;
+        margin-left: 20px;
     }
 
     @media (min-width: 1440px) {
         width: 1440px;
-        background: linear-gradient(180deg, $basic-white 20%, $basic-grey 0%);
+        background: linear-gradient(180deg, $basic-white 23%, $basic-grey 0%);
         margin-top: 45px;
         min-height: auto;
+        margin-left: 0;
     }
 }
 
@@ -80,7 +82,7 @@
         font-size: 16px;
         line-height: 24px;
         width: 708px;
-        padding-bottom: 55px;
+        padding-bottom: 53px;
     }
 
     @media (min-width: 1440px) {
@@ -105,7 +107,7 @@
         font-size: 30px;
         line-height: 37px;
         padding-bottom: 11px;
-        padding-top: 15px;
+        padding-top: 17px;
     }
 
     @media (min-width: 1440px) {
@@ -129,6 +131,7 @@
         font-size: 14px;
         line-height: 14px;
         text-align: center;
+        width: 125px;
     }
 
     @media (min-width: 1440px) {
@@ -144,7 +147,12 @@
     justify-content: center;
     padding-top: 20px;
 
-    @media (min-width: 768px) {}
+    @media (min-width: 768px) {
+        padding-top: 13px;
+        flex-wrap: wrap;
+        width: 180px;
+        justify-content: end;
+    }
 
     @media (min-width: 1440px) {
         display: flex;
@@ -166,6 +174,7 @@
         font-size: 20px;
         line-height: 20px;
         text-align: end;
+        padding-right: 0;
     }
 
     @media (min-width: 1440px) {
@@ -203,7 +212,7 @@
     position: relative;
 
     @media (min-width: 768px) {
-        margin: 99px auto 0;
+        margin: 99px 76px 0;
     }
 
     @media (min-width: 1440px) {
@@ -240,8 +249,8 @@
     @media (min-width: 768px) {
         width: 40px;
         height: 512px;
-        left: 260px;
-        top: 0;
+        left: 259px;
+        top: 1px;
     }
 
     @media (min-width: 1440px) {

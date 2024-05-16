@@ -34,7 +34,7 @@
     @media (min-width: 1440px) {
         font-size: 20px;
         line-height: 26px;
-        width: 140px;
+        width: 180px;
     }
 }
 
@@ -52,6 +52,7 @@
         line-height: 20px;
         width: 157px;
         padding-bottom: 19px;
+        text-align: end;
     }
 
     @media (min-width: 1440px) {
@@ -64,6 +65,7 @@
     .address__map iframe {
         width: 768px;
         height: 400px;
+        margin-left: 20px;
     }
 
     .address__catalog {
@@ -76,10 +78,9 @@
         display: flex;
         justify-content: space-between;
         padding-top: 60px;
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 90px;
+        padding-right: 50px;
     }
-
 }
 
 @media(min-width: 1440px) {
@@ -90,6 +91,7 @@
     .address__map iframe {
         width: 1440px;
         height: 400px;
+        margin-left: 0;
     }
 
     .address__info {

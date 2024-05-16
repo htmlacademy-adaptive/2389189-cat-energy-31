@@ -3,8 +3,8 @@
     margin-left: 20px;
 
     @media (min-width: 768px) {
-        width: 768px;
-        margin-left: 30px;
+        width: 708px;
+        margin-left: 50px;
     }
 
     @media (min-width: 1440px) {
@@ -20,7 +20,7 @@
     padding-bottom: 20px;
 
     @media (min-width: 768px) {
-        padding-top: 25px;
+        padding-top: 17px;
         padding-bottom: 32px;
         font-size: 60px;
         line-height: 60px;
@@ -65,7 +65,7 @@
     flex-wrap: wrap;
 
     @media (min-width: 768px) {
-        width: 708px;
+        width: 630px;
     }
 
     @media (min-width: 1440px) {
@@ -85,7 +85,8 @@
         width: 246px;
         flex-wrap: wrap;
         min-height: 280px;
-        margin-bottom: 37px;
+        padding-top: 0;
+        margin-bottom: 15px;
     }
 
     @media (min-width: 1440px) {

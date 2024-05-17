@@ -1,24 +1,32 @@
 .section-additional {
     margin: 0 auto;
-    width: 320px;
     margin-top: 40px;
     margin-bottom: 40px;
     border-top: 2px solid $basic-green;
 
     @media (min-width:768px) {
-        width: 768px;
         border-top: 2px solid $basic-green;
         margin-top: 75px;
         margin-bottom: 75px;
     }
 
     @media (min-width:1440px) {
-        width: 1440px;
         border-top: 2px solid $basic-green;
         margin-top: 75px;
         margin-bottom: 75px;
     }
 }
+.section-additional-container{
+width: 320px;
+margin: 0 auto;
+@media (min-width:768px){
+width: 768px;
+margin: 0 auto;
+}
+@media (min-width:1440px){
+width: 1440px;
+margin: 0 auto;
+}}
 
 .section-additional__wrapper {
     @media (min-width:1440px) {

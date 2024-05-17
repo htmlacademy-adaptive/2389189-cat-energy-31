@@ -1,20 +1,26 @@
 .section-offers {
-   width: 320px;
-   margin: 0 auto;
+
    padding-bottom: 40px;
    border-top: 2px solid $basic-green;
 
    @media (min-width:768px) {
-      width: 768px;
-      margin: 0 auto;
+
       border-top: 2px solid $basic-green;
       padding-bottom: 80px;
    }
-
-   @media (min-width:1440px) {
-      width: 1440px;
-   }
 }
+.section-offers-container{
+   width: 320px;
+   margin: 0 auto;
+   @media (min-width:768px){
+   width: 768px;
+   margin: 0 auto;
+   }
+   @media (min-width:1440px){
+   width: 1440px;
+   margin: 0 auto;
+   }
+   }
 
 .section-offers__title {
    font-family: "oswald", Arial, sans-serif;

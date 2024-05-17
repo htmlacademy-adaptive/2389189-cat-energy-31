@@ -1,23 +1,18 @@
-.section-advantages{
-    @media (min-width: 1440px){
-        margin-top: 55px;
-    }
-}
+
 .section-advantages__list-advantages {
     display: flex;
     flex-wrap: wrap;
     margin-left: 20px;
-    width: 280px;
+    margin-right: 20px;
 
     @media (min-width: 768px) {
-        width: 708px;
         margin-left: 50px;
     }
 
     @media (min-width: 1440px) {
         justify-content: space-between;
-        width: 1220px;
         margin: 0 auto;
+        width: 1220px;
     }
 }
 

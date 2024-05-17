@@ -1,11 +1,15 @@
-.section-products {
-   @media (min-width:1440px) {
-      margin-bottom: 71px;
+.section-products-container{
+
+   margin: 0 auto;
+   @media (min-width: 768px){
+      width: 768px;
+      margin: 0 auto;
+   }
+   @media (min-width: 1440px){
       width: 1220px;
       margin: 0 auto;
    }
 }
-
 .section-products__title {
    font-size: 36px;
    line-height: 36px;
@@ -31,7 +35,6 @@
    @media(min-width: 768px) {
       gap: 60px;
       margin-left: 30px;
-      width: 708px;
    }
 
    @media (min-width: 1440px) {

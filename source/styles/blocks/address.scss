@@ -1,10 +1,28 @@
+@media(min-width: 1440px) {
+    .address__wraper {
+        position: relative;
+    }
+}
+
 .address__map iframe {
-    width: 320px;
+
     height: 362px;
+    @media (min-width: 768px){
+
+        height: 400px;
+        margin-left: 20px;
+    }
+    @media (min-width: 1440px){
+        height: 400px;
+        margin-left: 0;
+    }
 }
 
 .address__catalog {
     background-color: $basic-grey;
+    @media (min-width: 768px){
+        background-color: $basic-grey;
+    }
 }
 
 .address__info {
@@ -15,6 +33,28 @@
     padding-top: 26px;
     padding-left: 20px;
     padding-right: 20px;
+    @media (min-width: 768px){
+        width: 768px;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+        padding-left: 90px;
+        padding-right: 50px;
+    }
+    @media (min-width: 1440px){
+        position: absolute;
+        top: 95px;
+        left: 110px;
+        background-color: $basic-white;
+        width: 565px;
+        height: 199px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+        padding-left: 80px;
+        padding-right: 78px;
+    }
 }
 
 .address__text {
@@ -58,53 +98,5 @@
     @media (min-width: 1440px) {
         font-size: 16px;
         line-height: 20px;
-    }
-}
-
-@media (min-width: 768px) {
-    .address__map iframe {
-        width: 768px;
-        height: 400px;
-        margin-left: 20px;
-    }
-
-    .address__catalog {
-        background-color: $basic-grey;
-    }
-
-    .address__info {
-        width: 768px;
-        height: 200px;
-        display: flex;
-        justify-content: space-between;
-        padding-top: 60px;
-        padding-left: 90px;
-        padding-right: 50px;
-    }
-}
-
-@media(min-width: 1440px) {
-    .address__wraper {
-        position: relative;
-    }
-
-    .address__map iframe {
-        width: 1440px;
-        height: 400px;
-        margin-left: 0;
-    }
-
-    .address__info {
-        position: absolute;
-        top: 95px;
-        left: 110px;
-        background-color: $basic-white;
-        width: 565px;
-        height: 199px;
-        display: flex;
-        justify-content: space-between;
-        padding-top: 60px;
-        padding-left: 80px;
-        padding-right: 78px;
     }
 }

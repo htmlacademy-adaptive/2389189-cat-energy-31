@@ -1,23 +1,23 @@
 .page__footer {
-    width: 320px;
+
     min-height: 147px;
     background-color: $basic-grey;
 
     @media(min-width: 768px) {
         display: flex;
         justify-content: space-between;
-        width: 768px;
+
         min-height: 147px;
         padding: 0 30px;
         background-color: $basic-grey;
         align-items: center;
-        margin-left: 20px;
+
     }
 
     @media(min-width: 1440px) {
         display: flex;
         justify-content: space-between;
-        width: 1440px;
+
         min-height: 169px;
         padding: 66px 110px;
         background-color: $basic-grey;

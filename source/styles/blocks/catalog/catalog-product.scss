@@ -1,11 +1,15 @@
-.section-products {
-   @media (min-width:1440px) {
-      margin-bottom: 71px;
+.section-products-container{
+
+   margin: 0 auto;
+   @media (min-width: 768px){
+      width: 768px;
+      margin: 0 auto;
+   }
+   @media (min-width: 1440px){
       width: 1220px;
       margin: 0 auto;
    }
 }
-
 .section-products__title {
    font-size: 36px;
    line-height: 36px;
@@ -31,7 +35,6 @@
    @media(min-width: 768px) {
       gap: 60px;
       margin-left: 30px;
-      width: 708px;
    }
 
    @media (min-width: 1440px) {
@@ -105,7 +108,7 @@
 }
 
 .product-card__title {
-   font-family: "oswald";
+   font-family: "oswald", Arial, sans-serif;
    font-weight: 400;
    text-transform: uppercase;
    width: 76px;
@@ -137,7 +140,7 @@
    display: flex;
    justify-content: space-between;
    margin: 0 auto;
-   font-family: "lato";
+   font-family: "lato", Arial, sans-serif;
    font-weight: 400;
    width: 140px;
    font-size: 12px;
@@ -193,7 +196,7 @@
    position: relative;
 }
 
-.more-product-card--wrapper {
+.more-product-card__wrapper {
    width: 280px;
 
    @media(min-width: 768px) {
@@ -214,7 +217,7 @@
 }
 
 .more-product-card__title {
-   font-family: "oswald";
+   font-family: "oswald", Arial, sans-serif;
    font-weight: 400;
    margin: 0 auto;
    text-align: center;
@@ -264,7 +267,7 @@
 }
 
 .more-product-card__more-button {
-   font-family: "oswald";
+   font-family: "oswald", Arial, sans-serif;
    font-weight: 400;
    text-transform: uppercase;
    border-style: none;

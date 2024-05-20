@@ -1,16 +1,15 @@
 .page__header {
   display: block;
-  width: 320px;
   border-bottom: 1px solid $special-grey-border;
 
   @media (min-width: 768px) {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 705px;
+    justify-content: space-between;
     min-height: 50px;
-    margin: 0 auto;
-    padding: 25px 0 0 0;
+    padding: 15px 0 0 0;
+    margin-left: 30px;
+    margin-right: 30px;
     border: none;
   }
 
@@ -18,18 +17,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1220px;
-    margin: 0 auto;
     padding-top: 50px;
     border: none;
+    width: 1220px;
+    margin: 0 auto;
   }
 }
 
 .page-header__logo {
   padding: 13px 0 0 20px;
   width: 250px;
-  @media (min-width: 1440px){
+
+  @media (min-width: 768px) {
+    width: 174px;
+    margin-right: 115px;
+    padding-top: 15px;
+  }
+
+  @media (min-width: 1440px) {
     padding: 0;
+    width: 202px;
   }
 }
 
@@ -131,7 +138,7 @@
 }
 
 .page-header__list {
-  font-family: "oswald", sans-serif;
+  font-family: "oswald",Arial, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 20px;
@@ -142,11 +149,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    font-family: "oswald", sans-serif;
     font-size: 18px;
-    font-weight: 400;
     line-height: 24px;
-    text-transform: uppercase;
     width: 436px;
     min-height: 50px;
   }
@@ -182,11 +186,12 @@
 }
 
 .page-header__item {
-  border-top: 1px solid #E6E6E6;
+  border-top: 1px solid $special-grey-border-2;
   padding: 22px 0 24px 0;
 
   @media (min-width: 768px) {
     padding-left: 33px;
+    padding-top: 25px;
     border-top: none;
 
     &:nth-child(1) {

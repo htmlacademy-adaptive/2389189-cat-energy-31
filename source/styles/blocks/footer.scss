@@ -1,12 +1,10 @@
 .page__footer {
-    width: 320px;
     min-height: 147px;
     background-color: $basic-grey;
 
     @media(min-width: 768px) {
         display: flex;
         justify-content: space-between;
-        width: 768px;
         min-height: 147px;
         padding: 0 30px;
         background-color: $basic-grey;
@@ -16,12 +14,23 @@
     @media(min-width: 1440px) {
         display: flex;
         justify-content: space-between;
-        width: 1440px;
         min-height: 169px;
         padding: 66px 110px;
         background-color: $basic-grey;
         align-items: center;
     }
+}
+
+.page__footer-container{
+   @media(min-width: 768px){
+   width: 708px;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+}
+   @media(min-width: 1440px){
+   width: 1220px;
+   }
 }
 
 .page-footer__logo {
@@ -58,6 +67,7 @@
         height: 22px;
         border: none;
         padding: 0;
+        margin-left: 62px;
     }
 
     @media(min-width: 1440px) {
@@ -67,6 +77,7 @@
         height: 22px;
         border: none;
         padding: 0;
+        margin-left: 57px;
     }
 }
 
@@ -129,23 +140,20 @@
 }
 
 .page__footer-text {
-    font-family: "lato", sans-serif;
+    font-family: "lato",Arial, sans-serif;
     color: $basic-black;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
 
     @media (min-width: 768px) {
-        font-family: "lato", sans-serif;
         font-size: 16px;
-        font-weight: 400;
         line-height: 20px;
     }
 
     @media (min-width: 1440px) {
-        font-family: "lato", sans-serif;
         font-size: 16px;
-        font-weight: 400;
         line-height: 20px;
+        padding-left: 5px;
     }
 }

@@ -2,7 +2,7 @@
   display: block;
   border-bottom: 1px solid $special-grey-border;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,9 +11,11 @@
     margin-left: 30px;
     margin-right: 30px;
     border: none;
+    width: 704px;
+    margin: 0 auto;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,23 +28,22 @@
 
 .page-header__logo {
   padding: 13px 0 0 20px;
-  width: 250px;
-
-  @media (min-width: 768px) {
+  
+  @media (min-width: $tablet-width) {
     width: 174px;
     margin-right: 115px;
     padding-top: 15px;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: $desktop-width) {
     padding: 0;
     width: 202px;
   }
 }
 
 .logo-link {
-  display: block;
   height: 42px;
+  display: block;
 
   &:hover {
     opacity: 80%;
@@ -52,7 +53,7 @@
     opacity: 60%;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +61,7 @@
     height: 50px;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,14 +70,13 @@
 }
 
 .logotype__text {
-  margin-left: 56px;
-  padding-bottom: 10px;
+  width: 101px;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     margin-left: 13px;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: $desktop-width) {
     margin-left: 14px;
     padding-bottom: 0;
   }
@@ -93,11 +93,11 @@
     opacity: 30%;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     color: $basic-black;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: $desktop-width) {
     color: $basic-white;
   }
 }
@@ -106,7 +106,7 @@
   .page-header__list {
     display: none;
 
-    @media(min-width: 768px) {
+    @media(min-width: $tablet-width) {
       display: flex;
     }
   }
@@ -122,7 +122,7 @@
   .page-header__list {
     display: block;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
       display: flex;
     }
   }
@@ -145,7 +145,7 @@
   text-transform: uppercase;
   text-align: center;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -155,7 +155,7 @@
     min-height: 50px;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: $desktop-width) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -176,11 +176,11 @@
   top: -35px;
   background-color: $basic-white;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     display: none;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: $desktop-width) {
     display: none;
   }
 }
@@ -189,7 +189,7 @@
   border-top: 1px solid $special-grey-border-2;
   padding: 22px 0 24px 0;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     padding-left: 33px;
     padding-top: 25px;
     border-top: none;
@@ -200,7 +200,7 @@
     }
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: $desktop-width) {
     padding-left: 33px;
 
     &-:nth-child(1) {
@@ -209,14 +209,38 @@
   }
 }
 
-.list-current {
-  @media (min-width: 768px) {
+.list-current
+ {
+  border-bottom: 2px solid $basic-green;
+    padding-bottom: 8px;
+  @media (min-width: $tablet-width) {
     border-bottom: 2px solid $basic-green;
     padding-bottom: 8px;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: $desktop-width) {
     border-bottom: 2px solid $basic-white;
     padding-bottom: 6px;
+  }
+}
+
+
+
+
+.page__body-index{
+  @media (min-width: $desktop-width){
+    position: relative;
+    background-image: url("../../images/main-back-cat@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: 1040px 720px ;
+    background-position: right 0 top 0;
+    z-index: -1; 
+  }
+}
+.page__main-wrapper{
+  @media(min-width: 1440px){
+    background:linear-gradient(90deg,$basic-white 50%,rgba(104, 183, 56, 0.851) 50%);
+      background-repeat: no-repeat;
+      background-size: 100% 720px;
   }
 }

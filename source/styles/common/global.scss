@@ -5,20 +5,18 @@
     box-sizing: border-box;
 }
 
-.page, .page__body {
+.page{
     height: 100%;
-    width: 100%;
 }
-.page__main-wrapper{
+body {
+    margin: 0 auto;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
-    flex-grow: 1;
 }
 
-body {
-    margin: 0;
-    font-style: normal;
+.page__main {
+    flex-grow: 1;
   }
 
 img{

@@ -11,7 +11,7 @@
 
     @media (min-width: $desktop-width) {
         background: linear-gradient(180deg, $basic-white 23%, $basic-grey 0%);
-        margin-top: 45px;
+        margin-top: 50px;
         min-height: auto;
         margin-left: 0;
     }
@@ -43,7 +43,6 @@
 
 .section-example__info-primary {
     display: flex;
-
 }
 
 .section-example__title {
@@ -87,7 +86,7 @@
         line-height: 24px;
         width: 432px;
         padding-top: 70px;
-        padding-bottom: 69px;
+        padding-bottom: 67px;
     }
 }
 
@@ -201,7 +200,7 @@
     @media (min-width: $desktop-width) {
         width: 162px;
         height: 77px;
-        margin-right: 43px;
+        margin-right: 40px;
     }
 }
 

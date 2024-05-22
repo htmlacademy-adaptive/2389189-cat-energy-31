@@ -60,8 +60,9 @@
     @media (min-width: $desktop-width) {
         font-size: 16px;
         line-height: 24px;
-        padding-top: 31px;
+        padding-top: 15px;
         padding-bottom: 57px;
+        width: 242px;
     }
 }
 
@@ -96,9 +97,8 @@
     }
 
     @media (min-width: $desktop-width) {
-        width: 250px;
         min-height: 280px;
-        margin-top: 31px;
+        margin-top: 50px;
         margin-bottom: 0;
     }
 }

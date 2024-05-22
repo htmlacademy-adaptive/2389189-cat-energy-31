@@ -1,11 +1,10 @@
 .section-products-container{
-
    margin: 0 auto;
-   @media (min-width: 768px){
+   @media (min-width: $tablet-width){
       width: 768px;
       margin: 0 auto;
    }
-   @media (min-width: 1440px){
+   @media (min-width: $desktop-width){
       width: 1220px;
       margin: 0 auto;
    }
@@ -15,13 +14,13 @@
    line-height: 36px;
    padding: 27px 0 41px 20px;
 
-   @media (min-width: 768px) {
+   @media (min-width: $tablet-width) {
       font-size: 60px;
       line-height: 60px;
       padding: 65px 0 84px 30px;
    }
 
-   @media (min-width: 1440px) {
+   @media (min-width: $desktop-width) {
       font-size: 60px;
       line-height: 60px;
       padding: 74px 0 84px 110px;
@@ -31,13 +30,16 @@
 .product-card--list {
    display: flex;
    flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
 
-   @media(min-width: 768px) {
+   @media(min-width: $tablet-width) {
+      flex-direction: row;
       gap: 60px;
       margin-left: 30px;
    }
 
-   @media (min-width: 1440px) {
+   @media (min-width: $desktop-width) {
       gap: 80px;
       width: 1220px;
       margin: 0 auto;
@@ -56,7 +58,7 @@
       border-bottom: 1px solid $basic-grey;
    }
 
-   @media(min-width: 768px) {
+   @media(min-width: $tablet-width) {
       width: 324px;
       border: none;
       padding: 0;
@@ -64,7 +66,7 @@
       background: linear-gradient(180deg, $basic-white 16%, $basic-grey 0%);
    }
 
-   @media (min-width: 1440px) {
+   @media (min-width: $desktop-width) {
       width: 245px;
       border: none;
       padding: 0;
@@ -79,7 +81,7 @@
    height: 107px;
    padding: 3px 28px;
 
-   @media(min-width: 768px) {
+   @media(min-width: $tablet-width) {
       width: 200px;
       height: 210px;
       margin-bottom: 22px;
@@ -87,7 +89,7 @@
       padding: 0;
    }
 
-   @media (min-width: 1440px) {
+   @media (min-width: $desktop-width) {
       width: 172px;
       height: 210px;
       margin-left: 38px;
@@ -98,11 +100,11 @@
 
 .product-card__wrapper {
 
-   @media(min-width: 768px) {
+   @media(min-width: $tablet-width) {
       margin: 0 auto;
    }
 
-   @media (min-width: 1440px) {
+   @media (min-width: $desktop-width) {
       margin: 0 auto;
    }
 }
@@ -116,7 +118,7 @@
    line-height: 20px;
    padding-bottom: 16px;
 
-   @media(min-width: 768px) {
+   @media(min-width: $tablet-width) {
       font-size: 20px;
       line-height: 24px;
       margin: 0 auto;
@@ -125,7 +127,7 @@
       margin-bottom: 20px;
    }
 
-   @media (min-width: 1440px) {
+   @media (min-width: $desktop-width) {
       font-size: 20px;
       line-height: 24px;
       margin: 0 auto;
@@ -146,7 +148,7 @@
    font-size: 12px;
    line-height: 16px;
 
-   @media(min-width: 768px) {
+   @media(min-width: $tablet-width) {
       width: 250px;
       font-size: 16px;
       line-height: 20px;
@@ -155,7 +157,7 @@
       padding-bottom: 5px;
    }
 
-   @media (min-width: 1440px) {
+   @media (min-width: $desktop-width) {
       width: 169px;
       font-weight: 400;
       font-size: 16px;
@@ -165,11 +167,12 @@
       padding-bottom: 4px;
    }
 }
-
 .product-card__button {
+   color: #ffffff;
+   background-color: $basic-green;
+   padding: 10px 109px;
    margin-bottom: 25px;
    margin-top: 17px;
-
    &:hover {
       background-color: $basic-green-2;
    }
@@ -178,14 +181,14 @@
       background-color: $basic-green-2;
       color: rgba(255, 255, 255, 0.3);
    }
-
-   @media(min-width: 768px) {
+   @media(min-width: $tablet-width){
+      padding: 10px 94px;
       margin-bottom: 40px;
       margin-left: 37px;
       margin-top: 32px;
    }
-
-   @media (min-width: 1440px) {
+   @media(min-width: $desktop-width){
+      padding: 10px 54px;
       margin-top: 32px;
       margin-left: 38px;
    }
@@ -199,7 +202,7 @@
 .more-product-card__wrapper {
    width: 280px;
 
-   @media(min-width: 768px) {
+   @media(min-width: $tablet-width) {
       width: 324px;
       height: 432px;
       border: 2px solid $basic-grey;
@@ -207,7 +210,7 @@
       bottom: 0;
    }
 
-   @media (min-width: 1440px) {
+   @media (min-width: $desktop-width) {
       width: 245px;
       height: 431px;
       border: 2px solid $basic-grey;
@@ -226,14 +229,14 @@
    line-height: 20px;
    margin-bottom: 8px;
 
-   @media(min-width: 768px) {
+   @media(min-width: $tablet-width) {
       font-size: 20px;
       line-height: 24px;
       width: 134px;
       margin-bottom: 23px;
    }
 
-   @media (min-width: 1440px) {
+   @media (min-width: $desktop-width) {
       font-size: 20px;
       line-height: 24px;
       width: 140px;
@@ -251,14 +254,14 @@
    line-height: 16px;
    padding-bottom: 21px;
 
-   @media(min-width: 768px) {
+   @media(min-width: $tablet-width) {
       width: 169px;
       font-size: 16px;
       line-height: 20px;
       padding-bottom: 82px;
    }
 
-   @media (min-width: 1440px) {
+   @media (min-width: $desktop-width) {
       width: 169px;
       font-size: 16px;
       line-height: 20px;
@@ -267,16 +270,10 @@
 }
 
 .more-product-card__more-button {
-   font-family: "oswald", Arial, sans-serif;
-   font-weight: 400;
-   text-transform: uppercase;
-   border-style: none;
    background-color: $basic-grey;
    color: $special_dark-grey;
    padding: 10px 95px;
    width: 280px;
-   font-size: 16px;
-   line-height: 20px;
    margin-bottom: 20px;
 
    &:hover {
@@ -287,7 +284,7 @@
       background-color: $special_grey-3;
    }
 
-   @media(min-width: 768px) {
+   @media(min-width: $tablet-width) {
       width: 250px;
       padding: 10px 80px;
       font-size: 16px;
@@ -296,7 +293,7 @@
       margin-bottom: 0;
    }
 
-   @media (min-width: 1440px) {
+   @media (min-width: $desktop-width) {
       width: 169px;
       padding: 10px 39px;
       font-size: 16px;
@@ -312,7 +309,7 @@
    width: 30px;
    height: 30px;
 
-   @media(min-width: 768px) {
+   @media(min-width: $tablet-width) {
       width: 60px;
       height: 60px;
       margin-top: 50px;
@@ -320,7 +317,7 @@
       margin-bottom: 50px;
    }
 
-   @media (min-width: 1440px) {
+   @media (min-width: $desktop-width) {
       width: 60px;
       height: 60px;
       margin-top: 50px;

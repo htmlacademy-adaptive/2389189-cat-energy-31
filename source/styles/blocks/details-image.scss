@@ -14,7 +14,7 @@
     .time {
         background-image: url("../../icons/stack.svg#icon-time");
     }
-@media (min-width: 768px){
+@media (min-width: $tablet-width){
     .leaf {
         background-image: url("../../icons/stack.svg#icon_leaf");
     }
@@ -60,7 +60,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop-width) {
     .leaf {
         background-image: url("../../icons/stack.svg#icon_leaf");
     }
@@ -79,30 +79,29 @@
 
     .one {
         background-image: url("../../icons/stack.svg#one");
-        ;
         background-repeat: no-repeat;
         background-size: 112px 230px;
-        background-position: left 105px top 40px;
+        background-position: left 105px top 20px;
     }
 
     .two {
         background-image: url("../../icons/stack.svg#two");
         background-repeat: no-repeat;
         background-size: 134px 230px;
-        background-position: left 112px top 40px;
+        background-position: left 112px top 20px;
     }
 
     .fhree {
         background-image: url("../../icons/stack.svg#three");
         background-repeat: no-repeat;
         background-size: 134px 230px;
-        background-position: left 114px top 40px;
+        background-position: left 114px top 20px;
     }
 
     .four {
         background-image: url("../../icons/stack.svg#four");
         background-repeat: no-repeat;
         background-size: 134px 230px;
-        background-position: left 120px top 40px;
+        background-position: left 120px top 20px;
     }
 }

@@ -2,7 +2,7 @@
     min-height: 147px;
     background-color: $basic-grey;
 
-    @media(min-width: 768px) {
+    @media(min-width: $tablet-width) {
         display: flex;
         justify-content: space-between;
         min-height: 147px;
@@ -11,7 +11,7 @@
         align-items: center;
     }
 
-    @media(min-width: 1440px) {
+    @media(min-width: $desktop-width) {
         display: flex;
         justify-content: space-between;
         min-height: 169px;
@@ -22,19 +22,21 @@
 }
 
 .page__footer-container{
-   @media(min-width: 768px){
+   @media(min-width: $tablet-width){
    width: 708px;
    display: flex;
    justify-content: space-between;
    margin: 0 auto;
 }
-   @media(min-width: 1440px){
+   @media(min-width: $desktop-width){
    width: 1220px;
    }
 }
 
 .page-footer__logo {
     padding: 40px 96px 20px 96px;
+    display: block;
+    text-align: center;
 
     &:hover {
         opacity: 80%;
@@ -44,8 +46,11 @@
         opacity: 60%;
     }
 
-    @media(min-width: 768px) {
+    @media(min-width: $tablet-width) {
         padding: 0;
+    }
+    @media(min-width: $desktop-width){
+        padding: 5px 0 0 0;
     }
 }
 
@@ -53,14 +58,13 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 280px;
     min-height: 22px;
     padding: 20px 74px;
     margin: 0 20px;
     border-top: 2px solid $special-grey-border;
     border-bottom: 2px solid $special-grey-border;
 
-    @media(min-width: 768px) {
+    @media(min-width: $tablet-width) {
         display: flex;
         justify-content: space-between;
         width: 132px;
@@ -70,13 +74,13 @@
         margin-left: 62px;
     }
 
-    @media(min-width: 1440px) {
+    @media(min-width: $desktop-width) {
         display: flex;
         justify-content: space-between;
         width: 132px;
         height: 22px;
         border: none;
-        padding: 0;
+        padding: 7px 0 0 0;
         margin-left: 57px;
     }
 }
@@ -94,12 +98,12 @@
         opacity: 30%;
     }
 
-    @media(min-width: 768px) {
+    @media(min-width: $tablet-width) {
         width: 28px;
         height: 22px;
     }
 
-    @media(min-width: 1440px) {
+    @media(min-width: $desktop-width) {
         width: 28px;
         height: 22px;
     }
@@ -109,7 +113,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 280px;
     margin: 20px;
     padding-bottom: 40px;
 
@@ -122,7 +125,7 @@
         opacity: 30%;
     }
 
-    @media(min-width: 768px) {
+    @media(min-width: $tablet-width) {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -131,7 +134,7 @@
         margin: 0;
     }
 
-    @media(min-width: 1440px) {
+    @media(min-width: $desktop-width) {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -146,12 +149,12 @@
     font-weight: 400;
     line-height: 20px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
         font-size: 16px;
         line-height: 20px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: $desktop-width) {
         font-size: 16px;
         line-height: 20px;
         padding-left: 5px;

@@ -1,11 +1,11 @@
 .section-details {
     margin-left: 20px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
         margin-left: 50px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: $desktop-width) {
         margin: 0 auto;
         padding-top: 31px;
     }
@@ -15,11 +15,11 @@
     width: 320px;
     margin: 0 auto;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
         width: 768px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: $desktop-width) {
         width: 1220px;
     }
 }
@@ -29,14 +29,14 @@
     line-height: 40px;
     padding-bottom: 20px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
         padding-top: 17px;
         padding-bottom: 32px;
         font-size: 60px;
         line-height: 60px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: $desktop-width) {
         font-size: 60px;
         line-height: 60px;
         padding-bottom: 0;
@@ -50,18 +50,19 @@
     line-height: 18px;
     width: 200px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
         font-size: 16px;
         line-height: 24px;
         padding-top: 31px;
         padding-bottom: 57px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: $desktop-width) {
         font-size: 16px;
         line-height: 24px;
-        padding-top: 31px;
+        padding-top: 15px;
         padding-bottom: 57px;
+        width: 242px;
     }
 }
 
@@ -70,12 +71,12 @@
     justify-content: space-between;
     flex-wrap: wrap;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
         gap: 20;
         margin-right: 109px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: $desktop-width) {
         margin-right: 0;
     }
 }
@@ -87,7 +88,7 @@
     justify-content: space-between;
     padding-top: 20px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
         width: 246px;
         flex-wrap: wrap;
         min-height: 280px;
@@ -95,10 +96,9 @@
         margin-bottom: 15px;
     }
 
-    @media (min-width: 1440px) {
-        width: 250px;
+    @media (min-width: $desktop-width) {
         min-height: 280px;
-        margin-top: 31px;
+        margin-top: 50px;
         margin-bottom: 0;
     }
 }
@@ -111,7 +111,7 @@
     width: 60px;
     height: 60px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
         margin-top: 40px;
         background-repeat: no-repeat;
         background-size: 30px 30px;
@@ -121,7 +121,7 @@
         height: 80px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: $desktop-width) {
         margin-top: 20px;
         background-repeat: no-repeat;
         background-size: 30px 30px;

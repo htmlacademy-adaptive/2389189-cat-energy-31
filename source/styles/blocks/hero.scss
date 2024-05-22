@@ -17,7 +17,6 @@
 }
 
 .section-hero__container {
-    
     @media (min-width: $tablet-width) {
         width: 769px;
         margin: 0 auto;
@@ -30,27 +29,27 @@
     }
 }
 
+.section-hero__wrapper-background{
+    background: rgba(104, 183, 56, 0.8);
+    z-index: -1;
+    height: 302px;
+    @media (min-width: $tablet-width){
+        background: none;
+    }
+}
+
 .section-hero__wrapper--mobile {
+    height: 302px;
+    z-index: 1;
     background-image: url("../../images/main-back-cat@2x.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 302px;
-    position: relative;
-    background-color: linear-gradient($basic-green 100%);
-    &::before{
-        content: "";
-        width: 100%;
-        background: $basic-green;
-        position: absolute;
-    }
-
+    background-position: center top;
     @media (min-width: $tablet-width) {
         background-image: none;
         padding-left: 140px;
         width: 420px;
         background: none;
-
     }
 
     @media (min-width: $desktop-width) {
@@ -66,6 +65,7 @@
     line-height: 36px;
     color: $basic-white;
     text-align: center;
+    padding-top: 27px;
 
     @media (min-width: $tablet-width) {
         font-size: 60px;
@@ -74,6 +74,7 @@
         color: $basic-black;
         text-align: start;
         width: 420px;
+        padding-top: 0;
     }
 
     @media (min-width: $desktop-width) {
@@ -122,7 +123,7 @@
     background: $basic-green;
     padding: 14px 63px;
     position: relative;
-    top: 19em;
+    top: 18em;
     margin-left: 30px;
     margin-right: 30px;
 
@@ -165,13 +166,13 @@
     width: 280px;
 
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
         margin: -100px 0 0 90px;
         z-index: -1;
         width: 709px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: $desktop-width) {
         left: 25px;
         top: 17px;
         margin: 0;

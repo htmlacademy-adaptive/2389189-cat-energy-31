@@ -4,12 +4,12 @@
     background-size: 50px 53px;
     background-position: top 20px left 21px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
         background-size: 200px 211px;
         background-position: top 81px right 63px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: $desktop-width) {
         background-size: 120px 106px;
         background-position: top 41px left 42px;
     }
@@ -21,12 +21,12 @@
     background-size: 67px 50px;
     background-position: top 24px left 13px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
         background-size: 268px 225px;
         background-position: top 83px right 30px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: $desktop-width) {
         background-size: 134px 100px;
         background-position: top 47px left 33px;
     }

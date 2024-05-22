@@ -14,7 +14,7 @@
     .time {
         background-image: url("../../icons/stack.svg#icon-time");
     }
-@media (min-width: 768px){
+@media (min-width: $tablet-width){
     .leaf {
         background-image: url("../../icons/stack.svg#icon_leaf");
     }
@@ -60,7 +60,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $desktop-width) {
     .leaf {
         background-image: url("../../icons/stack.svg#icon_leaf");
     }

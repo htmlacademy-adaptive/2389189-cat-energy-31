@@ -172,15 +172,10 @@ margin: 0 auto;
 }
 
 .additional-product__buy-button {
-    font-family: "Oswald", Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    text-transform: uppercase;
     color: $basic-white;
     background-color: $basic-green;
     padding: 10px 109px;
-    border-style: none;
+
 
     &:hover{
         background-color: $basic_green-2;
@@ -209,11 +204,12 @@ margin: 0 auto;
     background-image: url("../../../images/rectangle17.svg"), url("../../../images/cat-cover.png");
     background-repeat: no-repeat;
     background-color: $basic-green;
+    background-position: center;
 
     @media (min-width:768px) {
         justify-content: space-between;
         background-image: url("../../../images/Rectangle17.svg"), url("../../../images/images-catalog/cat-cover-tablet.png");
-        background-position: 30px;
+        background-position: center;
         width: 707px;
         height: 200px;
         background-size: 707px;
@@ -224,6 +220,7 @@ margin: 0 auto;
         width: 245px;
         height: 288px;
         background-size: 288px;
+        background-position: center;
         margin: 0;
         background-image: url("../../../images/rectangle17.svg"), url("../../../images/cat-cover.png");
     }

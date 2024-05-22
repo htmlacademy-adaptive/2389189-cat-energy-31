@@ -2,7 +2,7 @@
     @media(min-width: 769px){
         background-color: $basic-white;
     }
-        @media(min-width: 1440px){
+        @media(min-width: $desktop-width){
         position: relative;
     }
 }
@@ -19,12 +19,12 @@
 .address__map iframe {
 
     height: 362px;
-    @media (min-width: 768px){
+    @media (min-width: $tablet-width){
 
         height: 400px;
         margin-left: 20px;
     }
-    @media (min-width: 1440px){
+    @media (min-width: $desktop-width){
         height: 400px;
         margin-left: 0;
     }
@@ -37,7 +37,7 @@
     padding-top: 26px;
     padding-left: 20px;
     padding-right: 20px;
-    @media (min-width: 768px){
+    @media (min-width: $tablet-width){
         width: 628px;
         margin: 0 auto;
         height: 200px;
@@ -47,7 +47,7 @@
         padding-left: 0;
         padding-right: 0;
     }
-    @media (min-width: 1440px){
+    @media (min-width: $desktop-width){
         position: absolute;
         top: 95px;
         left: 110px;
@@ -70,13 +70,13 @@
     text-transform: uppercase;
     width: 140px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
         font-size: 20px;
         line-height: 26px;
         width: 163px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: $desktop-width) {
         font-size: 20px;
         line-height: 26px;
         width: 180px;
@@ -92,7 +92,7 @@
     font-style: normal;
     padding-bottom: 5px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-width) {
         font-size: 16px;
         line-height: 20px;
         width: 157px;
@@ -100,7 +100,7 @@
         text-align: end;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: $desktop-width) {
         font-size: 16px;
         line-height: 20px;
     }

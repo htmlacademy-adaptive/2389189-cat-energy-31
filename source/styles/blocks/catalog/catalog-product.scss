@@ -23,7 +23,7 @@
    @media (min-width: $desktop-width) {
       font-size: 60px;
       line-height: 60px;
-      padding: 74px 0 84px 110px;
+      padding: 60px 0 94px 0;
    }
 }
 
@@ -62,7 +62,7 @@
       width: 324px;
       border: none;
       padding: 0;
-      min-height: 511px;
+      height: 511px;
       background: linear-gradient(180deg, $basic-white 16%, $basic-grey 0%);
    }
 
@@ -70,8 +70,8 @@
       width: 245px;
       border: none;
       padding: 0;
-      min-height: 511px;
-      background: linear-gradient(180deg, $basic-white 16%, $basic-grey 0%);
+      height: 500px;
+      background: linear-gradient(180deg, $basic-white 13%, $basic-grey 0%);
    }
 
 }
@@ -93,7 +93,7 @@
       width: 172px;
       height: 210px;
       margin-left: 38px;
-      margin-bottom: 10px;
+      margin-bottom: 0;
       padding: 0;
    }
 }
@@ -106,6 +106,7 @@
 
    @media (min-width: $desktop-width) {
       margin: 0 auto;
+      height: 167px;
    }
 }
 
@@ -116,7 +117,7 @@
    width: 76px;
    font-size: 16px;
    line-height: 20px;
-   padding-bottom: 16px;
+   margin-bottom: 16px;
 
    @media(min-width: $tablet-width) {
       font-size: 20px;
@@ -130,10 +131,9 @@
    @media (min-width: $desktop-width) {
       font-size: 20px;
       line-height: 24px;
-      margin: 0 auto;
+      margin: 0 auto 25px;
       width: 140px;
       text-align: center;
-      margin-bottom: 23px;
    }
 
 }
@@ -163,7 +163,7 @@
       font-size: 16px;
       line-height: 20px;
       border-bottom: 1px solid $special-grey-border;
-      margin-bottom: 5px;
+      margin-bottom: 7px;
       padding-bottom: 4px;
    }
 }
@@ -188,8 +188,8 @@
       margin-top: 32px;
    }
    @media(min-width: $desktop-width){
-      padding: 10px 54px;
-      margin-top: 32px;
+      padding: 8px 54px;
+      margin-top: 25px;
       margin-left: 38px;
    }
 }
@@ -240,7 +240,7 @@
       font-size: 20px;
       line-height: 24px;
       width: 140px;
-      margin-bottom: 26px;
+      margin-bottom: 25px;
    }
 
 }
@@ -265,7 +265,7 @@
       width: 169px;
       font-size: 16px;
       line-height: 20px;
-      padding-bottom: 80px;
+      padding-bottom: 85px;
    }
 }
 
@@ -322,6 +322,6 @@
       height: 60px;
       margin-top: 50px;
       margin-left: 92px;
-      margin-bottom: 40px;
+      margin-bottom: 33px;
    }
 }

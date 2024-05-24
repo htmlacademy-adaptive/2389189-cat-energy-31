@@ -6,7 +6,8 @@
     margin-right: 20px;
 
     @media (min-width: $tablet-width) {
-        margin-left: 50px;
+        width: 708px;
+        margin: 0 auto;
     }
 
     @media (min-width: $desktop-width) {
@@ -19,16 +20,18 @@
 .section-advantages__item-advantages {
     background-color: $basic-grey;
     padding-bottom: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
 
     @media (min-width: $tablet-width) {
         padding-bottom: 56px;
         margin-bottom: 30px;
+        width: 708px;
     }
 
     @media (min-width: $desktop-width) {
         width: 570px;
         padding-bottom: 55px;
+        min-width: 570px;
     }
 }
 
@@ -58,13 +61,14 @@
     font-family: "lato","Arial", sans-serif;
     border-bottom: 1px solid $special-grey-border;
     padding-bottom: 23px;
-    margin: 0 20px 15px 20px;
+    margin: 0 20px 17px 20px;
 
     @media (min-width: $tablet-width) {
         font-size: 16px;
         line-height: 24px;
         padding-bottom: 0;
-        margin: 0 316px 51px 52px;
+        margin: 0 320px 51px 52px;
+        width: 340px;
         border-bottom: none;
     }
 
@@ -74,6 +78,7 @@
         margin: 0 61px 25px 52px;
         padding-bottom: 0;
         border-bottom: none;
+        width: 457px;
     }
 }
 
@@ -104,8 +109,7 @@
 }
 
 .section-advantages__link-svg {
-    margin-left: 10px;
-    margin-bottom: 3px;
+    margin-left: 13px;
     width: 24px;
     height: 12px;
 

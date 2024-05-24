@@ -1,7 +1,7 @@
 .page__header {
   display: block;
   border-bottom: 1px solid $special-grey-border;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -32,7 +32,7 @@
 
   @media (min-width: $tablet-width) {
     width: 174px;
-    margin-right: 115px;
+    margin-right: 94px;
     padding-top: 10px;
   }
 
@@ -72,7 +72,7 @@
 
 .logotype__text {
   width: 101px;
-  margin-left: 56px;
+  margin-left: 50px;
   margin-bottom: 9px;
 
   @media (min-width: $tablet-width) {

@@ -4,9 +4,11 @@
    border-top: 2px solid $basic-green;
 
    @media (min-width: $tablet-width) {
-
       border-top: 2px solid $basic-green;
       padding-bottom: 80px;
+   }
+   @media (min-width: $desktop-width){
+      padding-bottom: 105px;
    }
 }
 .section-offers-container{
@@ -46,6 +48,7 @@
       font-size: 40px;
       line-height: 40px;
       width: 333px;
+      margin-bottom: 68px;
    }
 }
 

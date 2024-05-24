@@ -1,7 +1,7 @@
 .section-additional {
     margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 32px;
+    margin-bottom: 53px;
     border-top: 2px solid $basic-green;
 
     @media (min-width:768px) {
@@ -42,7 +42,7 @@ margin: 0 auto;
     font-size: 24px;
     line-height: 24px;
     margin-bottom: 36px;
-    margin-top: -15px;
+    margin-top: -13px;
     background-color: $basic-white;
     width: 266px;
     text-align: center;
@@ -89,8 +89,8 @@ margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-between;
     border-top: 1px solid $special_grey;
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
     &:last-child {
         border-bottom: 1px solid $special_grey;

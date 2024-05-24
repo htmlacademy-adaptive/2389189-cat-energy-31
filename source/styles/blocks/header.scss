@@ -28,12 +28,12 @@
 }
 
 .page-header__logo {
-  padding: 12px 0 0 0;
+  padding: 12px 0 0 20px;
 
   @media (min-width: $tablet-width) {
     width: 174px;
     margin-right: 94px;
-    padding-top: 10px;
+    padding: 10px 0 0 0;
   }
 
   @media (min-width: $desktop-width) {

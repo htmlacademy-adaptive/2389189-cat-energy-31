@@ -48,7 +48,7 @@
     background-position: center top;
     @media (min-width: $tablet-width) {
         background-image: none;
-        padding-left: 140px;
+        padding-left: 120px;
         width: 420px;
         background: none;
     }
@@ -167,7 +167,7 @@
     width: 320px;
 
     @media (min-width: $tablet-width) {
-        margin: -100px 0 0 90px;
+        margin: -100px 0 0 70px;
         z-index: -1;
         width: 709px;
     }

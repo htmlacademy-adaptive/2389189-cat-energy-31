@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     min-height: 50px;
-    padding: 15px 0 0 0;
+    padding: 10px 0 0 0;
     margin-left: 30px;
     margin-right: 30px;
     border: none;
@@ -28,7 +28,7 @@
 }
 
 .page-header__logo {
-  padding: 12px 0 0 20px;
+  padding: 12px 0 0 0;
 
   @media (min-width: $tablet-width) {
     width: 174px;

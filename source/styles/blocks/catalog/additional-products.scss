@@ -6,8 +6,8 @@
 
     @media (min-width:768px) {
         border-top: 2px solid $basic-green;
-        margin-top: 75px;
-        margin-bottom: 75px;
+        margin-top: 90px;
+        margin-bottom: 93px;
     }
 
     @media (min-width:1440px) {
@@ -51,8 +51,8 @@ margin: 0 auto;
         font-size: 32px;
         line-height: 32px;
         margin-bottom: 80px;
-        margin-left: 70px;
-        margin-top: -25px;
+        margin-left: 30px;
+        margin-top: -15px;
         background-color: $basic-white;
         width: 381px;
         text-align: center;
@@ -62,6 +62,7 @@ margin: 0 auto;
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 80px;
+        margin-left: 70px;
         margin-top: -20px;
         background-color: $basic-white;
         width: 456px;
@@ -99,7 +100,7 @@ margin: 0 auto;
         width: 708px;
         border-left: 1px solid $special_grey;
         border-right: 1px solid $special_grey;
-        padding: 27px 37px;
+        padding: 26px 38px 28px 38px;
     }
 
     @media (min-width:1440px) {
@@ -213,7 +214,7 @@ margin: 0 auto;
         width: 707px;
         height: 200px;
         background-size: 707px;
-        margin: 70 auto;
+        margin: 65px auto 0;
     }
 
     @media (min-width:1440px) {
@@ -250,6 +251,7 @@ margin: 0 auto;
 
     @media (min-width:768px) {
         margin: 71px 125px;
+        text-align: start;
     }
 
     @media (min-width:1440px) {

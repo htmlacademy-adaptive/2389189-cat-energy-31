@@ -1,107 +1,108 @@
- 
-    .leaf {
-        background-image: url("../../icons/stack.svg#icon_leaf");
-    }
 
-    .powder {
-        background-image: url("../../icons/stack.svg#icon-powder");
-    }
+.leaf {
+  background-image: url("../../icons/stack.svg#icon_leaf");
+}
 
-    .eat {
-        background-image: url("../../icons/stack.svg#icon_eat");
-    }
+.powder {
+  background-image: url("../../icons/stack.svg#icon-powder");
+}
 
-    .time {
-        background-image: url("../../icons/stack.svg#icon-time");
-    }
-@media (min-width: $tablet-width){
-    .leaf {
-        background-image: url("../../icons/stack.svg#icon_leaf");
-    }
+.eat {
+  background-image: url("../../icons/stack.svg#icon_eat");
+}
 
-    .powder {
-        background-image: url("../../icons/stack.svg#icon-powder");
-    }
+.time {
+  background-image: url("../../icons/stack.svg#icon-time");
+}
 
-    .eat {
-        background-image: url("../../icons/stack.svg#icon_eat");
-    }
+@media (min-width: $tablet-width) {
+  .leaf {
+    background-image: url("../../icons/stack.svg#icon_leaf");
+  }
 
-    .time {
-        background-image: url("../../icons/stack.svg#icon-time");
-    }
+  .powder {
+    background-image: url("../../icons/stack.svg#icon-powder");
+  }
 
-    .one {
-        background-image: url("../../icons/stack.svg#one");
-        background-repeat: no-repeat;
-        background-size: 112px 230px;
-        background-position: left 105px top 40px;
-    }
+  .eat {
+    background-image: url("../../icons/stack.svg#icon_eat");
+  }
 
-    .two {
-        background-image: url("../../icons/stack.svg#two");
-        background-repeat: no-repeat;
-        background-size: 134px 230px;
-        background-position: left 112px top 40px;
-    }
+  .time {
+    background-image: url("../../icons/stack.svg#icon-time");
+  }
 
-    .fhree {
-        background-image: url("../../icons/stack.svg#three");
-        background-repeat: no-repeat;
-        background-size: 134px 230px;
-        background-position: left 115px top 40px;
-    }
+  .one {
+    background-image: url("../../icons/stack.svg#one");
+    background-repeat: no-repeat;
+    background-size: 112px 230px;
+    background-position: left 105px top 40px;
+  }
 
-    .four {
-        background-image: url("../../icons/stack.svg#four");
-        background-repeat: no-repeat;
-        background-size: 134px 225px;
-        background-position: left 120px top 40px;
-    }
+  .two {
+    background-image: url("../../icons/stack.svg#two");
+    background-repeat: no-repeat;
+    background-size: 134px 230px;
+    background-position: left 112px top 40px;
+  }
+
+  .fhree {
+    background-image: url("../../icons/stack.svg#three");
+    background-repeat: no-repeat;
+    background-size: 134px 230px;
+    background-position: left 115px top 40px;
+  }
+
+  .four {
+    background-image: url("../../icons/stack.svg#four");
+    background-repeat: no-repeat;
+    background-size: 134px 225px;
+    background-position: left 120px top 40px;
+  }
 }
 
 @media (min-width: $desktop-width) {
-    .leaf {
-        background-image: url("../../icons/stack.svg#icon_leaf");
-    }
+  .leaf {
+    background-image: url("../../icons/stack.svg#icon_leaf");
+  }
 
-    .powder {
-        background-image: url("../../icons/stack.svg#icon-powder");
-    }
+  .powder {
+    background-image: url("../../icons/stack.svg#icon-powder");
+  }
 
-    .eat {
-        background-image: url("../../icons/stack.svg#icon_eat");
-    }
+  .eat {
+    background-image: url("../../icons/stack.svg#icon_eat");
+  }
 
-    .time {
-        background-image: url("../../icons/stack.svg#icon-time");
-    }
+  .time {
+    background-image: url("../../icons/stack.svg#icon-time");
+  }
 
-    .one {
-        background-image: url("../../icons/stack.svg#one");
-        background-repeat: no-repeat;
-        background-size: 112px 230px;
-        background-position: left 105px top 20px;
-    }
+  .one {
+    background-image: url("../../icons/stack.svg#one");
+    background-repeat: no-repeat;
+    background-size: 112px 230px;
+    background-position: left 105px top 20px;
+  }
 
-    .two {
-        background-image: url("../../icons/stack.svg#two");
-        background-repeat: no-repeat;
-        background-size: 134px 230px;
-        background-position: left 112px top 20px;
-    }
+  .two {
+    background-image: url("../../icons/stack.svg#two");
+    background-repeat: no-repeat;
+    background-size: 134px 230px;
+    background-position: left 112px top 20px;
+  }
 
-    .fhree {
-        background-image: url("../../icons/stack.svg#three");
-        background-repeat: no-repeat;
-        background-size: 134px 230px;
-        background-position: left 114px top 20px;
-    }
+  .fhree {
+    background-image: url("../../icons/stack.svg#three");
+    background-repeat: no-repeat;
+    background-size: 134px 230px;
+    background-position: left 114px top 20px;
+  }
 
-    .four {
-        background-image: url("../../icons/stack.svg#four");
-        background-repeat: no-repeat;
-        background-size: 134px 230px;
-        background-position: left 120px top 20px;
-    }
+  .four {
+    background-image: url("../../icons/stack.svg#four");
+    background-repeat: no-repeat;
+    background-size: 134px 230px;
+    background-position: left 120px top 20px;
+  }
 }

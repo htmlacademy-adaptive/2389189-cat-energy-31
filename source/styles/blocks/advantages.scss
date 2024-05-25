@@ -1,133 +1,133 @@
 
 .section-advantages__list-advantages {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 20px;
-    margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
 
-    @media (min-width: $tablet-width) {
-        width: 708px;
-        margin: 0 auto;
-    }
+  @media (min-width: $tablet-width) {
+    width: 708px;
+    margin: 0 auto;
+  }
 
-    @media (min-width: $desktop-width) {
-        justify-content: space-between;
-        margin: 0 auto;
-        width: 1220px;
-    }
+  @media (min-width: $desktop-width) {
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1220px;
+  }
 }
 
 .section-advantages__item-advantages {
-    background-color: $basic-grey;
-    padding-bottom: 18px;
-    margin-bottom: 21px;
+  background-color: $basic-grey;
+  padding-bottom: 18px;
+  margin-bottom: 21px;
 
-    @media (min-width: $tablet-width) {
-        padding-bottom: 56px;
-        margin-bottom: 30px;
-        width: 708px;
-    }
+  @media (min-width: $tablet-width) {
+    padding-bottom: 56px;
+    margin-bottom: 30px;
+    width: 708px;
+  }
 
-    @media (min-width: $desktop-width) {
-        width: 570px;
-        padding-bottom: 55px;
-        min-width: 570px;
-    }
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    padding-bottom: 55px;
+    min-width: 570px;
+  }
 }
 
 .section-advantages__title {
-    font-size: 24px;
-    line-height: 37px;
-    text-transform: uppercase;
-    padding: 30px 0 29px 90px;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  padding: 30px 0 29px 90px;
 
-    @media (min-width: $tablet-width) {
-        font-size: 36px;
-        line-height: 36px;
-        padding: 77px 0 24px 53px;
-    }
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+    padding: 77px 0 24px 53px;
+  }
 
-    @media (min-width: $desktop-width) {
-        font-size: 36px;
-        line-height: 36px;
-        padding: 77px 0 75px 214px;
-    }
+  @media (min-width: $desktop-width) {
+    font-size: 36px;
+    line-height: 36px;
+    padding: 77px 0 75px 214px;
+  }
 }
 
 .section-advantages__text {
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 400;
-    font-family: "lato","Arial", sans-serif;
-    border-bottom: 1px solid $special-grey-border;
-    padding-bottom: 23px;
-    margin: 0 20px 17px 20px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: "lato", "Arial", sans-serif;
+  border-bottom: 1px solid $special-grey-border;
+  padding-bottom: 23px;
+  margin: 0 20px 17px;
 
-    @media (min-width: $tablet-width) {
-        font-size: 16px;
-        line-height: 24px;
-        padding-bottom: 0;
-        margin: 0 320px 51px 52px;
-        width: 340px;
-        border-bottom: none;
-    }
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 0;
+    margin: 0 320px 51px 52px;
+    width: 340px;
+    border-bottom: none;
+  }
 
-    @media (min-width: $desktop-width) {
-        font-size: 16px;
-        line-height: 24px;
-        margin: 0 61px 25px 52px;
-        padding-bottom: 0;
-        border-bottom: none;
-        width: 457px;
-    }
+  @media (min-width: $desktop-width) {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 61px 25px 52px;
+    padding-bottom: 0;
+    border-bottom: none;
+    width: 457px;
+  }
 }
 
 .section-advantages__link {
-    font-size: 16px;
-    line-height: 16px;
-    font-family: "Oswald","Arial", sans-serif;
-    font-weight: 400;
-    color: $basic-black;
-    text-transform: uppercase;
-    margin: 15px 0 0 20px;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  color: $basic-black;
+  text-transform: uppercase;
+  margin: 15px 0 0 20px;
 
-    &:active {
-        opacity: 30%;
-    }
+  &:active {
+    opacity: 30%;
+  }
 
-    @media (min-width: $tablet-width) {
-        font-size: 20px;
-        line-height: 30px;
-        margin: 0 0 0 52px;
-    }
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 0 52px;
+  }
 
-    @media (min-width: $desktop-width) {
-        font-size: 20px;
-        line-height: 30px;
-        margin: 0 0 55px 53px;
-    }
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 55px 53px;
+  }
 }
 
 .section-advantages__link-svg {
-    margin-left: 13px;
-    width: 24px;
-    height: 12px;
+  margin-left: 13px;
+  width: 24px;
+  height: 12px;
 
-    &:hover {
-        transform: scale(1.2);
-    }
+  &:hover {
+    transform: scale(1.2);
+  }
 
-    &:active {
-        transform: scale(1.2);
-    }
+  &:active {
+    transform: scale(1.2);
+  }
 
-    @media (min-width: $tablet-width) {
-        margin-left: 25px;
-        margin-bottom: 3px;
-    }
+  @media (min-width: $tablet-width) {
+    margin-left: 25px;
+    margin-bottom: 3px;
+  }
 
-    @media (min-width: $desktop-width) {
-        margin-left: 20px;
-        margin-bottom: 3px;
-    }
+  @media (min-width: $desktop-width) {
+    margin-left: 20px;
+    margin-bottom: 3px;
+  }
 }

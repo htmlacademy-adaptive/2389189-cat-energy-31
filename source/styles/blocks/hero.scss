@@ -166,7 +166,9 @@
 .section-hero__promo {
   margin-top: -135px;
   position: absolute;
-  width: 320px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
   @media (min-width: $tablet-width) {
     margin: -100px 0 0 70px;

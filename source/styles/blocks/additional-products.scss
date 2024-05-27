@@ -202,19 +202,28 @@
 
 .promo-card {
   display: flex;
+  position: relative;
   flex-wrap: wrap;
   margin-top: 35px;
   margin-left: 20px;
   width: 280px;
   height: 290px;
-  background-image: url("../../images/rectangle17.svg"), url("../../images/cat-cover@2x.png");
+  background-image: url("../../images/cat-cover@2x.png");
   background-repeat: no-repeat;
   background-color: $basic-green;
   background-position: center;
+  &::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(104, 183, 56, 0.8);
+  }
 
   @media (min-width: 768px) {
     justify-content: space-between;
-    background-image: url("../../images/rectangle17.svg"), url("../../images/cat-cover-tablet@2x.png");
+    background-image: url("../../images/cat-cover-tablet@2x.png");
     background-position: center;
     width: 707px;
     height: 200px;
@@ -228,12 +237,13 @@
     background-size: 288px;
     background-position: center;
     margin: 0;
-    background-image: url("../../images/rectangle17.svg"), url("../../images/cat-cover@2x.png");
+    background-image: url("../../images/cat-cover@2x.png");
   }
 }
 
 .promo-card-svg {
   margin: 58px 101px 48px;
+  z-index: 1;
 
   @media (min-width: 768px) {
     margin: 57px 0 48px 77px;
@@ -253,6 +263,7 @@
   color: $basic-white;
   width: 161px;
   margin: 0 auto;
+  z-index: 1;
 
   @media (min-width: 768px) {
     margin: 71px 125px;

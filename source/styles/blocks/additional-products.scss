@@ -74,7 +74,7 @@
   }
 }
 
-.additional-products__list {
+.section-additional__list {
   width: 280px;
   margin: 0 auto;
 
@@ -88,7 +88,7 @@
   }
 }
 
-.additional-product__item {
+.section-additional__item {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -115,7 +115,7 @@
   }
 }
 
-.additional-product__wrapper-product {
+.section-additional__wrapper-product {
   display: flex;
   justify-content: space-between;
   width: 280px;
@@ -133,7 +133,7 @@
   }
 }
 
-.additional-product__title {
+.section-additional__title-product {
   font-family: "oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -156,8 +156,8 @@
   }
 }
 
-.additional-product__weight,
-.additional-product__price {
+.section-additional__weight,
+.section-additional__price {
   font-family: "lato", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -176,7 +176,7 @@
   }
 }
 
-.additional-product__buy-button {
+.section-additional__buy-button {
   color: $basic-white;
   background-color: $basic-green;
   padding: 10px 109px;
@@ -200,7 +200,7 @@
   }
 }
 
-.promo-card {
+.section-additional__promo-card {
   display: flex;
   position: relative;
   flex-wrap: wrap;
@@ -242,7 +242,7 @@
   }
 }
 
-.promo-card-svg {
+.section-additional__promo-card-svg {
   margin: 58px 101px 48px;
   z-index: 1;
 
@@ -255,7 +255,7 @@
   }
 }
 
-.promo-card__text {
+.section-additional__promo-card__text {
   font-family: "lato", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;

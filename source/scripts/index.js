@@ -4,11 +4,11 @@ const navToggle = document.querySelector('.page-header__menu-button');
 
 
 navToggle.addEventListener('click', () => {
-  if (navMain.classList.contains('header__nav--closed')) {
-    navMain.classList.remove('header__nav--closed');
-    navMain.classList.add('header__nav--opened');
+  if (navMain.classList.contains('page-header__nav--closed')) {
+    navMain.classList.remove('page-header__nav--closed');
+    navMain.classList.add('page-header__nav--opened');
   } else {
-    navMain.classList.add('header__nav--closed');
-    navMain.classList.remove('header__nav--opened');
+    navMain.classList.add('page-header__nav--closed');
+    navMain.classList.remove('page-header__nav--opened');
   }
 });

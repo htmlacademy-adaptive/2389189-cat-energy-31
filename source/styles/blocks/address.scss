@@ -1,4 +1,4 @@
-.address__wraper {
+.address__wrapper {
   @media (min-width: $tablet-width) {
     background-color: $basic-white;
   }
@@ -9,7 +9,7 @@
 }
 
 
-.address__catalog {
+.address__wrapper-catalog {
   background-color: $basic-grey;
 
   @media (min-width: $tablet-width) {

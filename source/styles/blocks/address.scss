@@ -1,6 +1,7 @@
-.address{
+.address {
   position: relative;
 }
+
 .address__wrapper {
   @media (min-width: $tablet-width) {
     background-color: $basic-white;

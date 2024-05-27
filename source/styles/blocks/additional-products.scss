@@ -212,7 +212,8 @@
   background-repeat: no-repeat;
   background-color: $basic-green;
   background-position: center;
-  &::before{
+
+  &::before {
     content: "";
     display: block;
     position: absolute;

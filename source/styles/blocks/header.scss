@@ -127,6 +127,7 @@
 .header__nav--opened {
   .page-header__list {
     display: block;
+
     @media (min-width: $tablet-width) {
       display: flex;
     }
@@ -240,7 +241,8 @@
 .page__body-index {
   @media (min-width: $desktop-width) {
     position: relative;
-    &::after{
+
+    &::after {
       content: "";
       position: absolute;
       display: block;
@@ -250,7 +252,7 @@
       top: 0;
       background-image: url("../../images/main-back-cat@2x.jpg");
       background-repeat: no-repeat;
-      background-color: #4E4F53;
+      background-color: #4e4f53;
       background-size: 1040px 697px;
       background-position: left 0 top 0;
       z-index: -1;

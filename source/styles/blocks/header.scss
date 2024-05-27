@@ -232,11 +232,21 @@
 .page__body-index {
   @media (min-width: $desktop-width) {
     position: relative;
-    background-image: url("../../images/main-back-cat@2x.jpg");
-    background-repeat: no-repeat;
-    background-size: 1040px 697px;
-    background-position: right 0 top 0;
-    z-index: -1;
+    &::after{
+      content: "";
+      position: absolute;
+      display: block;
+      width: 50%;
+      height: 100%;
+      right: 0;
+      top: 0;
+      background-image: url("../../images/main-back-cat@2x.jpg");
+      background-repeat: no-repeat;
+      background-size: 1040px 697px;
+      background-position: left 0 top 0;
+      z-index: -1;
+    }
+    
   }
 }
 
@@ -245,5 +255,6 @@
     background: linear-gradient(90deg, $basic-white 50%, rgba(104, 183, 56, 0.85) 50%);
     background-repeat: no-repeat;
     background-size: 100% 697px;
+    
   }
 }

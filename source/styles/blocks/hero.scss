@@ -3,8 +3,8 @@
   margin-bottom: 20px;
 
   @media (min-width: $tablet-width) {
-    height: 864px;
-    padding-top: 55px;
+    min-height: 864px;
+    padding-top: 50px;
     margin: 0 auto;
   }
 
@@ -12,7 +12,7 @@
     display: flex;
     margin: 0 30px 55px;
     padding-top: 0;
-    height: 594px;
+    min-height: 594px;
   }
 }
 
@@ -34,7 +34,7 @@
 .section-hero__wrapper-background {
   background: rgba(104, 183, 56, 0.8);
   z-index: -1;
-  height: 302px;
+  min-height: 302px;
 
   @media (min-width: $tablet-width) {
     background: none;
@@ -42,7 +42,7 @@
 }
 
 .section-hero__wrapper-mobile {
-  height: 302px;
+  min-height: 302px;
   z-index: 1;
   background-image: url("../../images/main-back-cat@2x.jpg");
   background-size: cover;
@@ -164,20 +164,20 @@
 }
 
 .section-hero__promo {
-  margin-top: -135px;
+  margin: -135px 0 0 -10px;
   position: absolute;
   width: 100%;
   display: flex;
   justify-content: center;
 
   @media (min-width: $tablet-width) {
-    margin: -100px 0 0 70px;
+    margin: -100px 0 0 50px;
     z-index: -1;
     width: 709px;
   }
 
   @media (min-width: $desktop-width) {
-    left: 443px;
+    left: 447px;
     top: 17px;
     margin: 0;
     width: 552px;

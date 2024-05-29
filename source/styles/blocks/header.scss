@@ -4,7 +4,6 @@
 
   @media (min-width: $tablet-width) {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     min-height: 50px;
     padding: 10px 0 0;
@@ -16,7 +15,6 @@
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding-top: 50px;
     border: none;
     width: 1220px;
@@ -30,19 +28,20 @@
   @media (min-width: $tablet-width) {
     width: 174px;
     margin-right: 94px;
-    padding: 10px 0 0;
+    padding: 17px 0 0;
   }
 
   @media (min-width: $desktop-width) {
     padding: 0;
     width: 202px;
+    padding: 10px 0 0;
   }
 }
 
 .logo-link {
   height: 42px;
   display: flex;
-  width: 50%;
+  width: 47%;
   align-items: center;
   justify-content: space-between;
 
@@ -73,11 +72,13 @@
 .logo-link__text {
   width: 101px;
   transform: translateX(50%);
+  padding-top: 10px;
 
   @media (min-width: $tablet-width) {
     margin-left: 13px;
     margin-bottom: 0;
     transform: none;
+    padding-top: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -212,7 +213,7 @@
 
   @media (min-width: $desktop-width) {
     padding-left: 33px;
-    padding-top: 25px;
+    padding-top: 20px;
 
     &-:nth-child(1) {
       padding-left: 0;

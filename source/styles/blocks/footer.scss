@@ -5,8 +5,7 @@
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
-    min-height: 147px;
-    padding: 0 30px;
+    padding: 50px 30px 55px;
     background-color: $basic-grey;
     align-items: center;
   }
@@ -24,6 +23,8 @@
 .page__footer-container {
   @media (min-width: $tablet-width) {
     width: 708px;
+    min-height: 37px;
+    align-items: center;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -35,7 +36,7 @@
 }
 
 .page-footer__logo {
-  padding: 40px 96px 20px;
+  padding: 40px 96px 15px;
   display: block;
   text-align: center;
 
@@ -61,7 +62,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   min-height: 22px;
-  padding: 20px 74px;
+  padding: 20px 74px 13px;
   margin: 0 20px;
   border-top: 2px solid $special-grey-border;
   border-bottom: 2px solid $special-grey-border;
@@ -73,7 +74,7 @@
     height: 22px;
     border: none;
     padding: 0;
-    margin-left: 62px;
+    margin-left: 55px;
   }
 
   @media (min-width: $desktop-width) {
@@ -82,8 +83,8 @@
     width: 132px;
     height: 22px;
     border: none;
-    padding: 7px 0 0;
-    margin-left: 57px;
+    padding: 0;
+    margin-left: 60px;
   }
 }
 
@@ -131,7 +132,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 168px;
+    width: 162px;
     padding: 0;
     margin: 0;
   }

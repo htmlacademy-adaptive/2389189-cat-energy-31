@@ -139,8 +139,8 @@
 .section-example__info-secondary {
   display: flex;
   justify-content: center;
-  padding-top: 25px;
-
+  padding-top: 27px;
+  width: 288px;
 
   @media (min-width: $tablet-width) {
     padding-top: 13px;
@@ -152,7 +152,7 @@
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;
-    padding-top: 55px;
+    padding-top: 60px;
     width: 327px;
   }
 }

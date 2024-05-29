@@ -1,6 +1,6 @@
 .section-additional {
   margin: 0 auto;
-  margin-top: 32px;
+  margin-top: 40px;
   margin-bottom: 53px;
   border-top: 2px solid $basic-green;
 
@@ -12,7 +12,7 @@
 
   @media (min-width: 1440px) {
     border-top: 2px solid $basic-green;
-    margin-top: 85px;
+    margin-top: 88px;
     margin-bottom: 115px;
   }
 }
@@ -45,7 +45,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
-  margin-bottom: 36px;
+  margin-bottom: 35px;
   margin-top: -13px;
   background-color: $basic-white;
   width: 266px;
@@ -93,8 +93,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   border-top: 1px solid $special_grey;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 13px;
+  padding-bottom: 17px;
 
   &:last-child {
     border-bottom: 1px solid $special_grey;
@@ -243,7 +243,7 @@
 }
 
 .section-additional__promo-card-svg {
-  margin: 58px 101px 48px;
+  margin: 58px 101px 10px;
   z-index: 1;
 
   @media (min-width: 768px) {

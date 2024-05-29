@@ -67,7 +67,7 @@
   @media (min-width: $desktop-width) {
     font-size: 16px;
     line-height: 24px;
-    padding-top: 15px;
+    padding-top: 35px;
     padding-bottom: 57px;
     width: 242px;
   }
@@ -99,6 +99,7 @@
   @media (min-width: $tablet-width) {
     width: 246px;
     flex-wrap: wrap;
+    display: block;
     min-height: 280px;
     padding-top: 0;
     margin-bottom: 27px;

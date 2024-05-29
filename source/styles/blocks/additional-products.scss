@@ -208,10 +208,11 @@
   margin-left: 20px;
   width: 280px;
   height: 290px;
-  background-image: url("../../images/cat-cover@2x.png");
+  background-image: url("../../images/cat-cover-dasktop@1@2x.jpg");
   background-repeat: no-repeat;
   background-color: $basic-green;
   background-position: center;
+  background-size: cover;
 
   &::before {
     content: "";
@@ -224,7 +225,7 @@
 
   @media (min-width: 768px) {
     justify-content: space-between;
-    background-image: url("../../images/cat-cover-tablet@2x.png");
+    background-image: url("../../images/cat-cover-tablet@2@2x.jpg");
     background-position: center;
     width: 707px;
     height: 200px;
@@ -238,7 +239,7 @@
     background-size: 288px;
     background-position: center;
     margin: 0;
-    background-image: url("../../images/cat-cover@2x.png");
+    background-image: url("../../images/cat-cover-dasktop@2@2x.jpg");
   }
 }
 

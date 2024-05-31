@@ -7,15 +7,12 @@
 @import "./common/title.scss";
 /* BLOCKS */
 @import "./blocks/header.scss";
-@import "./blocks/hero.scss";
-@import "./blocks/advantages.scss";
-@import "./blocks/details.scss";
-@import "./blocks/example.scss";
+@import "./blocks/section-hero.scss";
+@import "./blocks/section-advantages.scss";
+@import "./blocks/section-details.scss";
+@import "./blocks/section-example.scss";
 @import "./blocks/address.scss";
-@import "./blocks/footer.scss";
-@import "./blocks/advantages-image.scss";
-@import "./blocks/details-image.scss";
-@import "./blocks/catalog-product.scss";
-@import "./blocks/header-catalog.scss";
-@import "./blocks/additional-products.scss";
-@import "./blocks/offers.scss";
+@import "./blocks/page__footer.scss";
+@import "./blocks/section-products.scss";
+@import "./blocks/section-additional.scss";
+@import "./blocks/section-offers.scss";

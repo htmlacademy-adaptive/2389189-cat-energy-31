@@ -1,0 +1,141 @@
+.section-offers {
+
+  padding-bottom: 40px;
+  border-top: 2px solid $basic-green;
+
+  @media (min-width: $tablet-width) {
+    border-top: 2px solid $basic-green;
+    padding-bottom: 80px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 105px;
+  }
+}
+
+.section-offers-container {
+  width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+.section-offers__title {
+  font-family: "oswald", "Arial", sans-serif;
+  font-weight: 400;
+  margin-top: -20px;
+  margin-bottom: 28px;
+  text-align: center;
+  background-color: $basic-white;
+  width: 192px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: -15px;
+    margin-bottom: 66px;
+    width: 282px;
+    margin-left: 30px;
+    text-align: center;
+    background-color: $basic-white;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 40px;
+    line-height: 40px;
+    width: 333px;
+    margin-bottom: 70px;
+    margin-top: -20px;
+    margin-left: 70px;
+  }
+}
+
+.section-offers__text {
+  font-family: "oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0 auto;
+    width: 632px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1360px;
+  }
+}
+
+.email-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  padding-top: 24px;
+  margin: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 632px;
+    margin: 0 auto;
+    padding-top: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 752px;
+    margin: 0 auto;
+  }
+}
+
+.email-form__input {
+  width: 280px;
+  height: 56px;
+  font-weight: 400;
+  font-family: "oswald", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding-left: 13px;
+
+  @media (min-width: $tablet-width) {
+    width: 376px;
+    border: 1px solid $special_grey;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 496px;
+  }
+}
+
+.email-form__button {
+  width: 280px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: $basic-white;
+  background-color: $basic-green;
+  padding: 15px 81px;
+  border-style: none;
+  margin-top: 16px;
+
+  @media (min-width: $tablet-width) {
+    width: 256px;
+    margin-top: 0;
+    padding: 15px 69px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}

@@ -204,11 +204,10 @@
 }
 
 .section-example__cat {
-  margin-top: 20px;
   position: relative;
 
   @media (min-width: $tablet-width) {
-    margin: 100px 0 0 74px;
+    margin: 100px 0 0 60px;
   }
 
   @media (min-width: $desktop-width) {

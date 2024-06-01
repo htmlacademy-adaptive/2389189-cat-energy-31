@@ -1,11 +1,9 @@
 .section-advantages__list-advantages {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 20px;
-  margin-right: 20px;
-  list-style: none;
+  margin: 0 20px;
   padding: 0;
-  margin: 0;
+  list-style: none;
 
   @media (min-width: $tablet-width) {
     width: 708px;

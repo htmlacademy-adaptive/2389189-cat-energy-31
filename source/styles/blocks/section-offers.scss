@@ -107,6 +107,7 @@
   line-height: 30px;
   text-transform: uppercase;
   padding-left: 13px;
+  border: 2px solid $basic-black;
 
   @media (min-width: $tablet-width) {
     width: 376px;

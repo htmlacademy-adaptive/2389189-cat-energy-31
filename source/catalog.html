@@ -344,8 +344,8 @@
           <h2 class="section-offers__title title title--secondary">Акции и новинки</h2>
           <p class="section-offers__text text">Подпишитесь на наши новости и не пропустите ни одного предложения!</p>
           <form class="email-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label class="email-form__label" for="offers-email"></label>
-            <input class="email-form__input input-email" type="email" name="offers-email" id="offers-email"
+            <label class="visually-hidden" for="offers-email">Введите вашу электронную почту</label>
+            <input class="email-form__input input-email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="offers-email" id="offers-email"
               placeholder="Ваш e-mail" value="кuklachev@gmail.com">
             <button class="email-form__button button button--primary" type="button">
               Подписаться

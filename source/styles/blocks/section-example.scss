@@ -218,36 +218,49 @@
 
 .section-example__cat-button{
   border: none;
-  background-color: transparent;
-  position: absolute;
-  mask-image: url("../../icons/stack.svg#slider-mobile");
-  width: 40px;
-  height: 256px;
-  left: 120px;
+  background: transparent;
   cursor: pointer;
+}
 
-  &:hover{
-    background-color: $basic-green;
+.example-slider {
+  width: 80px;
+  height: 256px;
+  position: absolute;
+  left: 100px;
+  top: 18px;
+
+  &:hover path,
+  &:hover rect:nth-child(1) {
+    fill: $basic-green;
   }
 
-  &:active{
-    opacity: 80%;
+  &:hover rect:nth-child(3) {
+    stroke: $basic-green;
   }
 
-  @media (min-width: $tablet-width){
-    mask-image: url("../../icons/stack.svg#slider-tablet");
+  &:active path,
+  &:active rect:nth-child(1) {
+    fill: $basic_green-2;
+    opacity: 60%;
+  }
+
+  &:active rect:nth-child(3) {
+    stroke: $basic_green-2;
+    opacity: 60%;
+  }
+
+  @media (min-width: $tablet-width) {
     width: 40px;
     height: 512px;
-    position: absolute;
-    left: 260px;
+    left: 275px;
+    top: 0;
   }
 
-  @media (min-width: $desktop-width){
-    mask-image: url("../../icons/stack.svg#slider-dasktop");
+  @media (min-width: $desktop-width) {
     width: 40px;
     height: 512px;
-    position: absolute;
-    left: 260px;
+    left: 275px;
+    top: 0;
   }
 }
 

@@ -18,15 +18,23 @@
 }
 
 
-.address__map iframe {
+.address__map {
   height: 362px;
+  background-image: url("../../images/maps-mobile@2x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
   @media (min-width: $tablet-width) {
     height: 400px;
+    background-image: url("../../images/maps-desktop@2x.jpg");
+    background-repeat: no-repeat;
   }
 
   @media (min-width: $desktop-width) {
     height: 400px;
+    background-image: url("../../images/maps-tablet@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -34,7 +42,7 @@
   min-height: 112px;
   display: flex;
   justify-content: space-between;
-  padding-top: 26px;
+  padding-top: 25px;
   padding-left: 20px;
   padding-right: 20px;
 
@@ -90,7 +98,6 @@
   line-height: 20px;
   width: 140px;
   font-style: normal;
-  padding-bottom: 5px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;

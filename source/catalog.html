@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <title>cat energy catalog</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="preload" href="../source/fonts/lato/Lato-Regular.woff" as="font" type="woff" crossorigin="anonymous">
-  <link rel="preload" href="../source/fonts/lato/Lato-Regular.woff2" as="font" type="woff2" crossorigin="anonymous">
-  <link rel="preload" href="../source/fonts/oswald/oswaldregular.woff" as="font" type="woff" crossorigin="anonymous">
-  <link rel="preload" href="../source/fonts/oswald/oswaldregular.woff2" as="font" type="woff2" crossorigin="anonymous">
+  <link rel="preload" href="../source/fonts/lato/Lato-Regular.woff" as="font" crossorigin="anonymous">
+  <link rel="preload" href="../source/fonts/lato/Lato-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="../source/fonts/oswald/oswaldregular.woff" as="font" crossorigin="anonymous">
+  <link rel="preload" href="../source/fonts/oswald/oswaldregular.woff2" as="font" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="icon" href="favicon32.ico">
   <link rel="icon" href="./favicons/favicon32.svg" type="image/svg+xml">
@@ -36,7 +36,7 @@
           </picture>
         </a>
       </div>
-      <nav class="page-header__nav page-header__nav--closed">
+      <nav class="page-header__nav page-header__nav--closed page-header__nav--nojs">
         <button class="page-header__menu-button" type="button">
           <span class="visually-hidden">открытие меню</span>
         </button>
@@ -63,7 +63,7 @@
                 <picture>
                   <source width="163" height="174" type="image/webp" media="(min-width: 1440px)" srcset="./images/images-catalog/pro-chicken-500-dasktop@2x@1x.webp 1x, ./images/images-catalog/pro-chicken-500-dasktop@2x@2x.webp 2x">
                   <source width="163" height="174" type="image/webp" media="(min-width: 768px)" srcset="./images/images-catalog/pro-chicken-500-tablet@2@1x.webp 1x, ./images/images-catalog/pro-chicken-500-tablet@2@2x.webp 2x">
-                  <img class="section-products-image" src="./images/images-catalog/pro-chicken-1000-mobile@1x@2x.png" srcset="./images/images-catalog/pro-chicken-500-mobile@2x@2x.png 2x" width="72" height="84" alt="Карточка товара">
+                  <img class="section-products-image-small" src="./images/images-catalog/pro-chicken-1000-mobile@1x@2x.png" srcset="./images/images-catalog/pro-chicken-500-mobile@2x@2x.png 2x" width="68" height="86" alt="Карточка товара">
                 </picture>
               </a>
               <div class="section-products__wrapper">
@@ -92,7 +92,7 @@
                 <picture>
                   <source width="163" height="174" type="image/webp" media="(min-width: 1440px)" srcset="./images/images-catalog/pro-chicken-1000-dasktop@2x@1x.webp 1x, ./images/images-catalog/pro-chicken-1000-dasktop@2x@2x.webp 2x">
                   <source width="163" height="174" type="image/webp" media="(min-width: 768px)" srcset="./images/images-catalog/pro-chicken-1000-tablet@2x@2x.webp 1x, ./images/images-catalog/pro-chicken-1000-tablet@2x@2x.webp 2x">
-                  <img class="section-products-image" src="./images/images-catalog/pro-chicken-1000-mobile@1x@2x.png" srcset="./images/images-catalog/pro-chicken-1000-mobile@2x@2x.png 2x" width="72" height="84" alt="Карточка товара">
+                  <img class="section-products-image-big" src="./images/images-catalog/pro-chicken-1000-mobile@1x@2x.png" srcset="./images/images-catalog/pro-chicken-1000-mobile@2x@2x.png 2x" width="72" height="84" alt="Карточка товара">
                 </picture>
               </a>
               <div class="section-products__wrapper">
@@ -121,7 +121,7 @@
                 <picture>
                   <source width="163" height="174" type="image/webp" media="(min-width: 1440px)" srcset="./images/images-catalog/pro-fish-500-dasktop@2x@1x.webp 1x, ./images/images-catalog/pro-fish-500-dasktop@2x@2x.webp 2x">
                   <source width="163" height="174" type="image/webp" media="(min-width: 768px)" srcset="./images/images-catalog/pro-fish-500-tablet@2x@2x.webp 1x, ./images/images-catalog/pro-fish-500-tablet@2x@2x.webp 2x">
-                  <img class="section-products-image" src="./images/images-catalog/pro-fish-500-mobile@1x@2x.png" srcset="./images/images-catalog/pro-fish-500-mobile@2x@2x.png 2x" width="72" height="84" alt="Карточка товара">
+                  <img class="section-products-image-small" src="./images/images-catalog/pro-fish-500-mobile@1x@2x.png" srcset="./images/images-catalog/pro-fish-500-mobile@2x@2x.png 2x" width="72" height="84" alt="Карточка товара">
                 </picture>
               </a>
               <div class="section-products__wrapper">
@@ -150,7 +150,7 @@
                 <picture>
                   <source width="163" height="174" type="image/webp" media="(min-width: 1440px)" srcset="./images/images-catalog/pro-fish-1000-dasktop@2x.webp 1x, ./images/images-catalog/pro-fish-1000-dasktop@2@2x.webp 2x">
                   <source width="163" height="174" type="image/webp" media="(min-width: 768px)" srcset="./images/images-catalog/pro-fish-1000-tablet@2x.webp 1x, ./images/images-catalog/pro-fish-1000-tablet@2x@2x.webp 2x">
-                  <img class="section-products-image" src="./images/images-catalog/pro-fish-1000-mobile@1x@2x.png" srcset="./images/images-catalog/pro-fish-1000-mobile@2x@2x.png 2x" width="72" height="84" alt="Карточка товара">
+                  <img class="section-products-image-big" src="./images/images-catalog/pro-fish-1000-mobile@1x@2x.png" srcset="./images/images-catalog/pro-fish-1000-mobile@2x@2x.png 2x" width="72" height="84" alt="Карточка товара">
                 </picture>
               </a>
               <div class="section-products__wrapper">
@@ -179,7 +179,7 @@
                 <picture>
                   <source width="163" height="174" type="image/webp" media="(min-width: 1440px)" srcset="./images/images-catalog/slim-dreek-500-dasktop@2x.webp 1x, ./images/images-catalog/slim-dreek-500-dasktop@2@2x.webp 2x">
                   <source width="163" height="174" type="image/webp" media="(min-width: 768px)" srcset="./images/images-catalog/slim-dreek-500-tablet@2x.webp 1x, ./images/images-catalog/slim-dreek-500-tablet@2x@2x.webp 2x">
-                  <img class="section-products-image" src="./images/images-catalog/slim-dreek-500-mobile@1x@2x.png" srcset="./images/images-catalog/slim-dreek-500-mobile@2x@2x.png 2x" width="72" height="84" alt="Карточка товара">
+                  <img class="section-products-image-small" src="./images/images-catalog/slim-dreek-500-mobile@1x@2x.png" srcset="./images/images-catalog/slim-dreek-500-mobile@2x@2x.png 2x" width="72" height="84" alt="Карточка товара">
                 </picture>
               </a>
               <div class="section-products__wrapper">
@@ -208,7 +208,7 @@
                 <picture>
                   <source width="163" height="174" type="image/webp" media="(min-width: 1440px)" srcset="./images/images-catalog/slim-dreek-1000-dasktop@2x.webp 1x, ./images/images-catalog/slim-dreek-1000-dasktop@2x@2x.webp 2x">
                   <source width="163" height="174" type="image/webp" media="(min-width: 768px)" srcset="./images/images-catalog/slim-dreek-1000-tablet@2x.webp 1x, ./images/images-catalog/slim-dreek-1000-tablet@2x@2x.webp 2x">
-                  <img class="section-products-image" src="./images/images-catalog/slim-dreek-1000-mobile@1x@2x.png" srcset="./images/images-catalog/slim-dreek-1000-mobile@2x@2x.png 2x" width="72" height="84" alt="Карточка товара">
+                  <img class="section-products-image-big" src="./images/images-catalog/slim-dreek-1000-mobile@1x@2x.png" srcset="./images/images-catalog/slim-dreek-1000-mobile@2x@2x.png 2x" width="72" height="84" alt="Карточка товара">
                 </picture>
               </a>
               <div class="section-products__wrapper">
@@ -237,7 +237,7 @@
                 <picture>
                   <source width="163" height="174" type="image/webp" media="(min-width: 1440px)" srcset="./images/images-catalog/slim-rice-500-dasktop@2x.webp 1x, ./images/images-catalog/slim-rice-500-dasktop@2x@2x.webp 2x">
                   <source width="163" height="174" type="image/webp" media="(min-width: 768px)" srcset="./images/images-catalog/slim-rice-500-tablet@2x.webp 1x, ./images/images-catalog/slim-rice-500-tablet@2x@2x.webp 2x">
-                  <img class="section-products-image" src="./images/images-catalog/slim-rice-500-mobile@1x@2x.png" srcset="./images/images-catalog/slim-rice-500-mobile@2x@2x.png 2x" width="72" height="84" alt="Карточка товара">
+                  <img class="section-products-image-small" src="./images/images-catalog/slim-rice-500-mobile@1x@2x.png" srcset="./images/images-catalog/slim-rice-500-mobile@2x@2x.png 2x" width="72" height="84" alt="Карточка товара">
                 </picture>
               </a>
               <div class="section-products__wrapper">
@@ -344,8 +344,8 @@
           <h2 class="section-offers__title title title--secondary">Акции и новинки</h2>
           <p class="section-offers__text text">Подпишитесь на наши новости и не пропустите ни одного предложения!</p>
           <form class="email-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label class="email-form__label" for="offers-email"></label>
-            <input class="email-form__input input-email" type="email" name="offers-email" id="offers-email"
+            <label class="visually-hidden" for="offers-email">Введите вашу электронную почту</label>
+            <input class="email-form__input input-email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="offers-email" id="offers-email"
               placeholder="Ваш e-mail" value="кuklachev@gmail.com">
             <button class="email-form__button button button--primary" type="button">
               Подписаться
@@ -411,5 +411,4 @@
     </footer>
   </div>
 </body>
-
 </html>

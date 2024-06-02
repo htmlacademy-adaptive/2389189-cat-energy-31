@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <title>cat energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="preload" href="../source/fonts/lato/Lato-Regular.woff" as="font" type="woff" crossorigin="anonymous">
-  <link rel="preload" href="../source/fonts/lato/Lato-Regular.woff2" as="font" type="woff2" crossorigin="anonymous">
-  <link rel="preload" href="../source/fonts/oswald/oswaldregular.woff" as="font" type="woff" crossorigin="anonymous">
-  <link rel="preload" href="../source/fonts/oswald/oswaldregular.woff2" as="font" type="woff2" crossorigin="anonymous">
+  <link rel="preload" href="../source/fonts/lato/Lato-Regular.woff" as="font" crossorigin="anonymous">
+  <link rel="preload" href="../source/fonts/lato/Lato-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="../source/fonts/oswald/oswaldregular.woff" as="font" crossorigin="anonymous">
+  <link rel="preload" href="../source/fonts/oswald/oswaldregular.woff2" as="font" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="icon" href="favicon32.ico">
   <link rel="icon" href="./favicons/favicon32.svg" type="image/svg+xml">
@@ -36,7 +36,7 @@
           </picture>
         </a>
       </div>
-      <nav class="page-header__nav page-header__nav--closed">
+      <nav class="page-header__nav page-header__nav--opened page-header__nav--nojs">
         <button class="page-header__menu-button" type="button">
           <span class="visually-hidden">открытие меню</span>
         </button>
@@ -72,13 +72,13 @@
                   images/index-can-dasktop@1x.webp 1x,
                   images/index-can-dasktop@2x.webp 2x
                 ">
-              <source class="section-hero-tablet" media="(min-width:768px)" width="669" type="image/png" height="539"
+              <source class="section-hero-tablet" media="(min-width:768px)" width="710" type="image/png" height="450"
                 srcset="
                   images/index-can-tablet@1x.webp 1x,
                   images/index-can-tablet@2x.webp 2x
                 ">
-              <img class="section-hero-mobile" src="images/index-can-mobile@1x.png" srcset="images/index-can-mobile@2x.png 2x"
-                alt="cat energy product" width="300" height="280">
+              <img class="section-hero-mobile" src="images/index-can-mobile@1x.png"
+                srcset="images/index-can-mobile@2x.png 2x" alt="cat energy product" width="280" height="280">
             </picture>
           </div>
         </div>
@@ -160,7 +160,7 @@
               <div class="section-example__info-primary">
                 <div class="section-example__info-weight">
                   <p class="section-example__info-text text">5 КГ</p>
-                  <p class="section-example__info-caption text text">снижение веса</p>
+                  <p class="section-example__info-caption text">снижение веса</p>
                 </div>
                 <div class="section-example__info-time">
                   <p class="section-example__info-text text">60 ДНЕЙ</p>
@@ -175,6 +175,15 @@
           </div>
           <div class="section-example__cat">
             <button class="section-example__cat-button" type="button">
+              <span class="visually-hidden">слайдер</span>
+              <svg class="example-slider" width="40" height="258" viewBox="0 0 40 258" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect x="18" width="4" height="257.02" rx="2" fill="#666666" />
+                <rect x="1" y="110" width="38" height="38" rx="19" fill="white" />
+                <rect x="1" y="110" width="38" height="38" rx="19" stroke="#666666" stroke-width="2" />
+                <path d="M16 120L8 129L16 138V120Z" fill="#666666" />
+                <path d="M32 129L24 120V138L32 129Z" fill="#666666" />
+              </svg>
             </button>
             <picture>
               <source media="(min-width:1440px)" width="560" height="512" type="image/png" srcset="
@@ -204,7 +213,7 @@
           <div class="address__map">
             <script async
               src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeb95169d0875b9a592414c2d9ed139062ed1d81b51e6aa3d5452f0941bdab761&amp;lang=ru_RU&amp;scroll=true">
-            </script>
+              </script>
           </div>
         </div>
       </section>

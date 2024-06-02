@@ -164,14 +164,14 @@
 }
 
 .section-hero__promo {
-  margin: -135px 0 0 -10px;
+  margin: -135px 0 0;
   position: absolute;
   width: 100%;
   display: flex;
   justify-content: center;
 
   @media (min-width: $tablet-width) {
-    margin: -100px 0 0 50px;
+    margin: -100px 0 0 30px;
     z-index: -1;
     width: 709px;
   }

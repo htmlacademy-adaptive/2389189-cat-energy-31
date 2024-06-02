@@ -32,7 +32,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 0;
     width: 202px;
     padding: 10px 0 0;
   }
@@ -72,7 +71,7 @@
 .logo-link__text {
   width: 101px;
   transform: translateX(50%);
-  padding-top: 10px;
+  padding-top: 5px;
 
   @media (min-width: $tablet-width) {
     margin-left: 13px;
@@ -108,6 +107,16 @@
   }
 }
 
+.page-header__nav--nojs .page-header__menu-button {
+  display: none;
+}
+
+.page-header__nav--nojs {
+  .page-header__list {
+    display: block;
+  }
+}
+
 .page-header__nav--closed {
   .page-header__list {
     display: none;
@@ -134,7 +143,7 @@
   }
 
   .page-header__menu-button {
-    background-image: url("../../icons/close_mobile.svg");
+    background-image: url("../../icons/close-menu.svg");
     background-size: 18px;
     background-repeat: no-repeat;
     width: 20px;

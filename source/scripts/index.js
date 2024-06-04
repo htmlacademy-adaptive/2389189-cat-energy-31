@@ -13,3 +13,6 @@ navToggle.addEventListener('click', () => {
     navMain.classList.remove('page-header__nav--opened');
   }
 });
+
+navMain.classList.remove('page-header__nav--opened');
+navMain.classList.add('page-header__nav--closed');

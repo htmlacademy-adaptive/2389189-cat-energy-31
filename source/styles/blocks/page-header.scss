@@ -1,27 +1,3 @@
-.page__header {
-  display: block;
-  border-bottom: 1px solid $special-grey-border;
-
-  @media (min-width: $tablet-width) {
-    display: flex;
-    justify-content: space-between;
-    min-height: 50px;
-    padding: 10px 0 0;
-    border: none;
-    width: 704px;
-    margin: 0 auto;
-  }
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
-    border: none;
-    width: 1220px;
-    margin: 0 auto;
-  }
-}
-
 .page-header__logo {
   padding: 12px 0 10px 20px;
 
@@ -34,56 +10,6 @@
   @media (min-width: $desktop-width) {
     width: 202px;
     padding: 10px 0 0;
-  }
-}
-
-.logo-link {
-  height: 42px;
-  display: flex;
-  width: 47%;
-  align-items: center;
-  justify-content: space-between;
-
-  &:hover {
-    opacity: 80%;
-  }
-
-  &:active {
-    opacity: 60%;
-  }
-
-  @media (min-width: $tablet-width) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 174px;
-    height: 50px;
-  }
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 202px;
-  }
-}
-
-.logo-link__text {
-  width: 101px;
-  transform: translateX(50%);
-  padding-top: 5px;
-
-  @media (min-width: $tablet-width) {
-    margin-left: 13px;
-    margin-bottom: 0;
-    transform: none;
-    padding-top: 0;
-  }
-
-  @media (min-width: $desktop-width) {
-    margin-left: 14px;
-    padding-bottom: 0;
-    width: 118px;
   }
 }
 
@@ -107,11 +33,11 @@
   }
 }
 
-.page-header__nav--nojs .page-header__menu-button {
-  display: none;
-}
-
 .page-header__nav--nojs {
+  .page-header__menu-button {
+    display: none;
+  }
+
   .page-header__list {
     display: block;
   }
@@ -231,62 +157,4 @@
       padding-left: 0;
     }
   }
-}
-
-.list-current {
-  border-bottom: 2px solid $basic-green;
-  padding-bottom: 8px;
-
-  @media (min-width: $tablet-width) {
-    border-bottom: 2px solid $basic-green;
-    padding-bottom: 8px;
-  }
-
-  @media (min-width: $desktop-width) {
-    border-bottom: 2px solid $basic-white;
-    padding-bottom: 6px;
-  }
-}
-
-
-.page__body-index {
-  @media (min-width: $desktop-width) {
-    position: relative;
-
-    &::after {
-      content: "";
-      position: absolute;
-      display: block;
-      width: 50%;
-      height: 697px;
-      right: 0;
-      top: 0;
-      background-image: url("../../images/main-back-cat@2x.jpg");
-      background-repeat: no-repeat;
-      background-color: $background-hero;
-      background-size: 1040px 697px;
-      background-position: left 0 top 0;
-      z-index: -1;
-    }
-  }
-}
-
-.page__main-wrapper {
-  @media (min-width: $desktop-width) {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: linear-gradient(90deg, $basic-white 50%, rgba(104, 183, 56, 0.85) 50%);
-    background-repeat: no-repeat;
-    background-size: 100% 697px;
-  }
-}
-
-.catalog-list-current {
-  border-bottom: 2px solid $basic-green;
-  padding-bottom: 6px;
-}
-
-.catalog {
-  color: $basic-black;
 }

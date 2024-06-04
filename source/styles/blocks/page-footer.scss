@@ -1,4 +1,4 @@
-.page__footer {
+.page-footer {
   min-height: 147px;
   background-color: $basic-grey;
 
@@ -20,7 +20,7 @@
   }
 }
 
-.page__footer-container {
+.page-footer__container {
   @media (min-width: $tablet-width) {
     width: 708px;
     min-height: 37px;
@@ -57,78 +57,6 @@
   }
 }
 
-.social-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  min-height: 22px;
-  padding: 20px 74px 13px;
-  margin: 0 20px;
-  border-top: 2px solid $special-grey-border;
-  border-bottom: 2px solid $special-grey-border;
-  list-style: none;
-
-  @media (min-width: $tablet-width) {
-    display: flex;
-    justify-content: space-between;
-    width: 132px;
-    height: 22px;
-    border: none;
-    padding: 0;
-    margin-left: 55px;
-  }
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-    justify-content: space-between;
-    width: 132px;
-    height: 22px;
-    border: none;
-    padding: 0;
-    margin-left: 60px;
-  }
-}
-
-.social-list__link {
-  width: 28px;
-  height: 22px;
-  display: block;
-
-  &:hover {
-    background-color: $basic-green;
-  }
-}
-
-.social-list__link--vkontakte {
-  display: block;
-  width: 28px;
-  height: 22px;
-  mask-image: url("../../icons/stack.svg#vkontakte");
-  mask-repeat: no-repeat;
-  mask-size: 28px 22px;
-  background-color: $special_dark-grey;
-}
-
-.social-list__link--youtube {
-  display: block;
-  width: 28px;
-  height: 22px;
-  mask-image: url("../../icons/stack.svg#youtube");
-  mask-repeat: no-repeat;
-  mask-size: 28px 22px;
-  background-color: $special_dark-grey;
-}
-
-.social-list__link--telegram {
-  display: block;
-  width: 28px;
-  height: 22px;
-  mask-image: url("../../icons/stack.svg#telegram");
-  mask-repeat: no-repeat;
-  mask-size: 28px 22px;
-  background-color: $special_dark-grey;
-}
-
 .page-footer__html-logo {
   mask-image: url("../../icons/stack.svg#logo-academy");
   background-color: $special-grey-2;
@@ -145,8 +73,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px;
-  padding-bottom: 40px;
+  margin: 20px 20px 0;
+  padding-bottom: 20px;
 
   &:hover path {
     fill: $basic-green;
@@ -174,7 +102,7 @@
   }
 }
 
-.page__footer-text {
+.page-footer__text {
   font-family: "lato", "Arial", sans-serif;
   color: $basic-black;
   font-size: 16px;

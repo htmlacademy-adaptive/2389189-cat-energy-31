@@ -30,7 +30,7 @@
 
   @media (min-width: $desktop-width) {
     width: 570px;
-    padding-bottom: 55px;
+    padding-bottom: 0;
     min-width: 570px;
   }
 }
@@ -90,6 +90,8 @@
   color: $basic-black;
   text-transform: uppercase;
   margin: 15px 0 0 20px;
+  display: flex;
+  align-items: center;
 
   &:active {
     opacity: 30%;
@@ -112,6 +114,8 @@
   margin-left: 13px;
   width: 24px;
   height: 12px;
+  mask-image: url("../../icons/stack.svg#link");
+  background-color: $basic-black;
 
   &:hover {
     transform: scale(1.2);
@@ -123,45 +127,9 @@
 
   @media (min-width: $tablet-width) {
     margin-left: 25px;
-    margin-bottom: 3px;
   }
 
   @media (min-width: $desktop-width) {
     margin-left: 20px;
-    margin-bottom: 3px;
-  }
-}
-
-.loss {
-  background-image: url("../../icons/stack.svg#cat_back-2");
-  background-repeat: no-repeat;
-  background-size: 50px 53px;
-  background-position: top 20px left 21px;
-
-  @media (min-width: $tablet-width) {
-    background-size: 200px 211px;
-    background-position: top 81px right 63px;
-  }
-
-  @media (min-width: $desktop-width) {
-    background-size: 120px 106px;
-    background-position: top 41px left 42px;
-  }
-}
-
-.weight {
-  background-image: url("../../icons/stack.svg#cat_back-1");
-  background-repeat: no-repeat;
-  background-size: 67px 50px;
-  background-position: top 24px left 13px;
-
-  @media (min-width: $tablet-width) {
-    background-size: 268px 225px;
-    background-position: top 78px right 30px;
-  }
-
-  @media (min-width: $desktop-width) {
-    background-size: 134px 100px;
-    background-position: top 47px left 33px;
   }
 }

@@ -247,10 +247,15 @@
 
 .section-additional__promo-card-svg {
   margin: 58px 101px 10px;
+  width: 78px;
+  height: 80px;
   z-index: 1;
+  background-image: url("../../images/icon_gift.svg");
 
   @media (min-width: 768px) {
     margin: 57px 0 48px 77px;
+    width: 80px;
+    height: 83px;
   }
 
   @media (min-width: 1440px) {

@@ -1,23 +1,23 @@
 .list-current {
+  border-bottom: 2px solid $basic-green;
+  padding-bottom: 8px;
+
+  @media (min-width: $tablet-width) {
     border-bottom: 2px solid $basic-green;
     padding-bottom: 8px;
-  
-    @media (min-width: $tablet-width) {
-      border-bottom: 2px solid $basic-green;
-      padding-bottom: 8px;
-    }
-  
-    @media (min-width: $desktop-width) {
-      border-bottom: 2px solid $basic-white;
-      padding-bottom: 6px;
-    }
+  }
+
+  @media (min-width: $desktop-width) {
+    border-bottom: 2px solid $basic-white;
+    padding-bottom: 6px;
+  }
 }
 
 .catalog-list-current {
-    border-bottom: 2px solid $basic-green;
-    padding-bottom: 6px;
-  }
-  
+  border-bottom: 2px solid $basic-green;
+  padding-bottom: 6px;
+}
+
 .catalog {
-    color: $basic-black;
+  color: $basic-black;
 }

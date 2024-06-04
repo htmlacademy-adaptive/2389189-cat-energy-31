@@ -1,16 +1,16 @@
 .loss {
-    background-image: url("../../icons/stack.svg#cat_back-2");
-    background-repeat: no-repeat;
-    background-size: 50px 53px;
-    background-position: top 20px left 21px;
+  background-image: url("../../icons/stack.svg#cat_back-2");
+  background-repeat: no-repeat;
+  background-size: 50px 53px;
+  background-position: top 20px left 21px;
 
-    @media (min-width: $tablet-width) {
-        background-size: 200px 211px;
-        background-position: top 81px right 63px;
-    }
+  @media (min-width: $tablet-width) {
+    background-size: 200px 211px;
+    background-position: top 81px right 63px;
+  }
 
-    @media (min-width: $desktop-width) {
-        background-size: 120px 106px;
-        background-position: top 41px left 42px;
-    }
+  @media (min-width: $desktop-width) {
+    background-size: 120px 106px;
+    background-position: top 41px left 42px;
+  }
 }

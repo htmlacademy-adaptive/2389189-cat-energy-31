@@ -1,13 +1,13 @@
 .four {
-    @media (min-width: $tablet-width) {
-        background-image: url("../../icons/stack.svg#four");
-        background-repeat: no-repeat;
-        background-size: 134px 225px;
-        background-position: left 120px top 40px;
-    }
+  @media (min-width: $tablet-width) {
+    background-image: url("../../icons/stack.svg#four");
+    background-repeat: no-repeat;
+    background-size: 134px 225px;
+    background-position: left 120px top 40px;
+  }
 
-    @media (min-width: $desktop-width) {
-        background-size: 134px 230px;
-        background-position: left 120px top 20px;
-    }
+  @media (min-width: $desktop-width) {
+    background-size: 134px 230px;
+    background-position: left 120px top 20px;
+  }
 }

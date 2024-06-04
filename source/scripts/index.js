@@ -1,7 +1,6 @@
 /* в этот файл добавляет скрипты*/
 const navMain = document.querySelector('.page-header__nav');
 const navToggle = document.querySelector('.page-header__menu-button');
-const navNojs = document.querySelector('page-header__nav--nojs');
 
 navMain.classList.remove('page-header__nav--nojs');
 

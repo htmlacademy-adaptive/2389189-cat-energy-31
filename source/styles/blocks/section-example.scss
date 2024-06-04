@@ -39,6 +39,18 @@
   }
 }
 
+.section-example__caption {
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 436px;
+  }
+}
+
 .section-example__info-primary {
   display: flex;
 }

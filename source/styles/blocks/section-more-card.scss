@@ -1,0 +1,130 @@
+.section-more-card {
+    background: none;
+    position: relative;
+}
+
+.section-more-card__wrapper {
+    width: 280px;
+
+    @media (min-width: $tablet-width) {
+        width: 324px;
+        height: 432px;
+        border: 2px solid $basic-grey;
+        position: absolute;
+        bottom: 0;
+    }
+
+    @media (min-width: $desktop-width) {
+        width: 245px;
+        height: 431px;
+        border: 2px solid $basic-grey;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.section-more-card__title {
+    font-family: "oswald", "Arial", sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 8px;
+
+    @media (min-width: $tablet-width) {
+        font-size: 20px;
+        line-height: 24px;
+        width: 134px;
+        margin-bottom: 23px;
+    }
+
+    @media (min-width: $desktop-width) {
+        font-size: 20px;
+        line-height: 24px;
+        width: 140px;
+        margin-bottom: 25px;
+    }
+}
+
+.section-more-card__text {
+    font-family: "lato", "Arial", sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 21px;
+
+    @media (min-width: $tablet-width) {
+        width: 169px;
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 78px;
+    }
+
+    @media (min-width: $desktop-width) {
+        width: 169px;
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 88px;
+    }
+}
+
+.section-more-card__more-button {
+    background-color: $basic-grey;
+    color: $special_dark-grey;
+    padding: 10px 95px;
+    width: 280px;
+    margin-bottom: 20px;
+
+    &:hover {
+        background-color: $special_grey-3;
+    }
+
+    &:active {
+        background-color: $special_grey-3;
+    }
+
+    @media (min-width: $tablet-width) {
+        width: 250px;
+        padding: 10px 80px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 35px;
+        margin-bottom: 0;
+    }
+
+    @media (min-width: $desktop-width) {
+        width: 169px;
+        padding: 0 39px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 35px;
+        margin-bottom: 0;
+    }
+}
+
+.section-more-card__svg {
+    margin: 5px 125px 20px;
+    width: 30px;
+    height: 30px;
+
+    @media (min-width: $tablet-width) {
+        width: 60px;
+        height: 60px;
+        margin-top: 54px;
+        margin-left: 130px;
+        margin-bottom: 45px;
+    }
+
+    @media (min-width: $desktop-width) {
+        width: 60px;
+        height: 60px;
+        margin-top: 50px;
+        margin-left: 92px;
+        margin-bottom: 33px;
+    }
+}

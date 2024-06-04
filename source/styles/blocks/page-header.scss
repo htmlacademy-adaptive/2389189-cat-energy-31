@@ -33,14 +33,13 @@
     }
 }
 
-.page-header__nav--nojs .page-header__menu-button {
-    display: none;
-}
-
 .page-header__nav--nojs {
-    .page-header__list {
-        display: block;
-    }
+  .page-header__menu-button {
+    display: none;
+  }
+  .page-header__list {
+    display: block;
+  }
 }
 
 .page-header__nav--closed {

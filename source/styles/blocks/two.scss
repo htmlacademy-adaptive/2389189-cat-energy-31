@@ -1,0 +1,13 @@
+.two {
+  @media (min-width: $tablet-width) {
+    background-image: url("../../icons/stack.svg#two");
+    background-repeat: no-repeat;
+    background-size: 134px 230px;
+    background-position: left 112px top 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-size: 134px 230px;
+    background-position: left 112px top 20px;
+  }
+}

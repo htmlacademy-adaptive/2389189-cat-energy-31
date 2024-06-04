@@ -1,0 +1,13 @@
+.fhree {
+  @media (min-width: $tablet-width) {
+    background-image: url("../../icons/stack.svg#three");
+    background-repeat: no-repeat;
+    background-size: 134px 230px;
+    background-position: left 115px top 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-size: 134px 230px;
+    background-position: left 114px top 20px;
+  }
+}
